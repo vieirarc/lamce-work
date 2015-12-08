@@ -1,0 +1,2679 @@
+1
+
+                    Execution started at 20150825.151119         
+
+
+
+                    ---------------------------------------
+                                     SWAN
+                    SIMULATION OF WAVES IN NEAR SHORE AREAS
+                             VERSION NUMBER 41.01A              
+                    ---------------------------------------
+
+
+    
+ PROJECT  'COB'  ''
+    
+ 'SIMULAÇÃO ONDAS'
+    
+ ''
+    
+ ''
+    
+ 
+    
+ SET DEPMIN 0.7 INRHOG 1 NAUTICAL
+    
+ 
+    
+ MODE NONSTATIONARY TWODIMENSIONAL
+    
+ COORDINATES SPHERICAL CCM
+    
+ 
+    
+ &**********COMPUTATIONAL GRID**********&
+ CGRID REG -43.3153 -23.0675 0 0.286 0.414 349 463 CIRCLE 30 0.04 1.2 28
+ Resolution in sigma-space: df/f =  0.1292
+    
+ 
+    
+ &***BATHYMETRY GRID***&
+ INP BOT REG -43.3153 -23.0675 0 349 463 0.00082 0.00089 EXC 0
+    
+ READinp BOT 1 'bat_100_bg.prn' 4 0 FREE  &****LEITURA DO ARQUIVO DE BATIMETRIA****&
+ ** Warning          : Point removed from computational grid
+Point with index (   335,   104) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   220,   145) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   222,   152) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   223,   153) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   231,   148) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   244,   170) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   237,   170) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    22,    59) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    22,    60) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    23,    61) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    32,    59) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    48,   295) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   104,   250) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   101,   252) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   115,   233) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   108,   229) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   109,   228) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   150,   192) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   163,   166) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    48,   297) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    48,   298) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    52,   325) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    53,   328) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    62,   339) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    64,   341) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    97,   313) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   153,   295) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    83,   246) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    84,   244) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    84,   245) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    85,   243) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    85,   244) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    86,   239) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    86,   240) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    89,   229) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    90,   228) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    91,   228) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    92,   226) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    92,   227) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    92,   228) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    93,   225) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    93,   226) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    94,   256) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    95,   223) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    96,   223) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    97,   223) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   100,   216) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   100,   222) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   105,   222) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   101,   221) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   101,   222) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   124,   216) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   138,    88) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   140,    88) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   169,   125) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   171,   123) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   152,   192) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   161,   150) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   167,   169) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   172,   173) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   176,   139) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   202,   220) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   203,   220) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   205,   204) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   206,   177) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   207,   201) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   211,   196) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   214,   156) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   214,   212) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   214,   216) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   215,   212) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   215,   213) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   215,   216) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   217,   215) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   218,   215) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   219,   215) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   220,   215) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   222,   213) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   245,   259) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   265,   299) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   226,   215) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   228,   218) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   226,   223) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   227,   129) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   227,   216) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   227,   220) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   227,   221) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   227,   222) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   227,   223) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   229,   225) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   231,   147) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   231,   228) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   236,   352) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   236,   126) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   236,   244) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   236,   245) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   239,   241) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   239,   242) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   244,   254) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   245,   257) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   268,   297) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   279,   295) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   279,   296) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   280,   296) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   293,    98) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   293,    99) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   293,   100) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ 
+    
+ &**********WIND GRID**********&
+ &INP WIND REG -43.3153 -23.0675 0 349 463 0.00082 0.00089 NONSTAT 20141013.000000 1 HR 20141017.230000
+ &READinp WInd 1 SERIes 'XXXXXXXXXX' 1 0 0 0 FREE
+ 
+    
+ 
+    
+ &**********CURRENT GRID**********&
+ &INP CUR REG -43.3153 -23.0675 0 349 463 0.00082 0.00089 NONSTAT 20141013.000000 1 HR 20141017.230000
+ &READinp CUR 1 SERIes 'XXXXXXXXXX' 1 0 0 0 FREE
+ 
+    
+ 
+    
+ &**********BOUNDARY CONDITIONS AND FORCING**********&
+ BOUnd SHAPespec JONswap 3.3 DSPR DEGREES
+    
+ 
+    
+ &***********WAVE**********&
+ BOUndspec SEG IJ 0 0 0 92 VAR FILE 0.41 'TPAR_25_a_29_agosto_1.txt' 1   &****LEITURA DO ARQUIVO DA CONDICAO DE CONTORNO*
+ 
+    
+ BOUndspec SEG IJ 0 0 349 0 VAR FILE 0.29 'TPAR_25_a_29_agosto_2.txt' 1    &****LEITURA DO ARQUIVO DA CONDICAO DE CONTORN
+ 
+    
+ BOUndspec SEG IJ 349 0 349 92 VAR FILE 0.41 'TPAR_25_a_29_agosto_3.txt' 1    &****LEITURA DO ARQUIVO DA CONDICAO DE CONT
+ 
+    
+ 
+    
+ &**********ABOUT PHYSICS**********&
+ OFF WINDG
+    
+ OFF WCAP
+    
+ OFF QUAD
+    
+ OFF BREAKING
+    
+ 
+    
+ DIFFRAC smpar=0.2 smnum=0
+    
+ 
+    
+ 
+    
+ &**********OUTPUTS**********&
+ QUANTITY HS 'HS' 'Altura Significativa' 0.00 20.00 0
+    
+ QUANTITY DIR 'DIR' 'Direcao Media' 0.00 360.0 0
+    
+ &QUANTITY VEL 'CUR' 'Corrente' 0.00 70.00 0
+ 
+    
+ BLO 'COMPGRID' NOHEADER 'hs_copa.mat' LAY 4 HS 1 OUTPUT 20150825.000000 3 HR   &****NECESSARIO ATUALIZAR AS DATAS DE INI
+ BLO 'COMPGRID' NOHEADER 'dir_copa.mat' LAY 4 DIR 1 OUTPUT 20150825.000000 3 HR  &****NECESSARIO ATUALIZAR AS DATAS DE IN
+ &BLO 'COMPGRID' NOHEADER 'current_copa.mat' LAY 4 VEL 1 OUTPUT 20150825.000000 3 HR  &****NECESSARIO ATUALIZAR AS DATAS
+ 
+    
+ COMP NONSTAT 20150825.000000 3 HR 20150829.210000  &****NECESSARIO ATUALIZAR AS DATAS DE INICIO E FIM DE CADA SIMULAÇÃO*
+ ** Warning          : Limiter is de-activated in case of no quadruplets
+ Time of computation ->  20150825.030000      in sec:      10800.
+
+----------------------------------------------------------------
+                  COMPUTATIONAL PART OF SWAN
+----------------------------------------------------------------
+
+ Gridresolution       : MXC             350 MYC            464
+                      : MCGRD         71346
+                      : MSC              29 MDC             30
+                      : MTC              39
+                      : NSTATC            1 ITERMX           1
+ Propagation flags    : ITFRE             1 IREFR            1
+ Source term flags    : IBOT              0 ISURF            0
+                      : IWCAP             0 IWIND            0
+                      : ITRIAD            0 IQUAD            0
+                      : IVEG              0 ITURBV           0
+                      : IMUD              0
+ Spatial step         : DX       0.8195E-03 DY      0.8942E-03
+ Spectral bin         : df/f     0.1292E+00 DDIR    0.1200E+02
+ Physical constants   : GRAV     0.9810E+01 RHO     0.1025E+04
+ Wind input           : WSPEED   0.0000E+00 DIR     0.0000E+00
+ Tail parameters      : E(f)     0.4000E+01 E(k)    0.2500E+01
+                      : A(f)     0.5000E+01 A(k)    0.3000E+01
+ Accuracy parameters  : DREL     0.1000E-01 NPNTS   0.9950E+02
+                      : DHABS    0.5000E-02 CURVAT  0.5000E-02
+                      : GRWMX    0.1000E+21
+ Drying/flooding      : LEVEL    0.0000E+00 DEPMIN  0.7000E+00
+ The nautical  convention for wind and wave directions is used
+ Scheme for geographic propagation is BSBT  
+ Scheme geogr. space  : PROPSC            1 ICMAX            3
+ Scheme spectral space: CSS      0.5000E+00 CDD     0.5000E+00
+ Current is off
+ Quadruplets is off
+ Triads is off
+ Bottom friction is off
+ Vegetation is off
+ Turbulence is off
+ Fluid mud is off
+ Whitecapping is off
+ Surf breaking is off
+ Set-up is off
+ Diffraction          : SMPAR    0.2000E+00 SMNUM            0
+ Janssen (`89,`90)    : ALPHA    0.1000E-01 KAPPA   0.4100E+00
+ Janssen (`89,`90)    : RHOA     0.1280E+01 RHOW    0.1025E+04
+ 
+ 1st and 2nd gen. wind: CF10     0.1880E+03 CF20    0.5900E+00
+                      : CF30     0.1200E+00 CF40    0.2500E+03
+                      : CF50     0.2300E-02 CF60   -0.2230E+00
+                      : CF70     0.0000E+00 CF80   -0.5600E+00
+                      : RHOAW    0.1249E-02 EDMLPM  0.3600E-02
+                      : CDRAG    0.1230E-02 UMIN    0.1000E+01
+                      : LIM_PM   0.1300E+00
+ 
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.62       1.86       0.15
+     1    56     57       1.62       1.40       0.14
+     1    55     56       1.62       1.38       0.15
+     1    54     55       1.62       1.38       0.14
+     1    53     54       1.62       1.40       0.13
+     1    52     53       1.62       1.43       0.12
+     1    51     52       1.62       1.44       0.11
+     1    50     51       1.62       1.45       0.10
+     1    33     34       1.62       1.81       0.12
+ 
+ Time of computation ->  20150825.060000      in sec:      21600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.96       2.67       0.36
+     1    58     59       1.96       2.31       0.18
+     1    35     36       1.96       2.23       0.14
+     1    34     35       1.96       2.38       0.22
+     1    33     34       1.96       2.49       0.27
+ 
+ Time of computation ->  20150825.090000      in sec:      32400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.82       3.76       0.34
+     1    58     59       2.82       3.27       0.16
+     1    35     36       2.82       3.15       0.12
+     1    34     35       2.82       3.35       0.19
+     1    33     34       2.82       3.50       0.24
+ 
+ Time of computation ->  20150825.120000      in sec:      43200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       3.16       4.17       0.32
+     1    58     59       3.16       3.64       0.15
+     1    35     36       3.16       3.51       0.11
+     1    34     35       3.16       3.71       0.17
+     1    33     34       3.16       3.87       0.22
+ 
+ Time of computation ->  20150825.150000      in sec:      54000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       3.08       4.07       0.32
+     1    58     59       3.08       3.56       0.16
+     1    35     36       3.08       3.41       0.11
+     1    34     35       3.08       3.61       0.17
+     1    33     34       3.08       3.76       0.22
+ 
+ Time of computation ->  20150825.180000      in sec:      64800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.90       3.79       0.31
+     1    58     59       2.90       3.32       0.14
+     1    35     36       2.90       3.20       0.10
+     1    34     35       2.90       3.37       0.16
+     1    33     34       2.90       3.51       0.21
+ 
+ Time of computation ->  20150825.210000      in sec:      75600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.74       3.56       0.30
+     1    58     59       2.74       3.11       0.14
+     1    35     36       2.74       3.01       0.10
+     1    34     35       2.74       3.17       0.16
+     1    33     34       2.74       3.30       0.21
+ 
+ Time of computation ->  20150826.000000      in sec:      86400.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.73       3.53       0.29
+     1    58     59       2.73       3.09       0.13
+     1    34     35       2.73       3.16       0.16
+     1    33     34       2.73       3.29       0.20
+ 
+ Time of computation ->  20150826.030000      in sec:      97200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.93       3.92       0.34
+     1    58     59       2.93       3.40       0.16
+     1    35     36       2.93       3.28       0.12
+     1    34     35       2.93       3.48       0.19
+     1    33     34       2.93       3.64       0.24
+ 
+ Time of computation ->  20150826.060000      in sec:     108000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       3.07       4.11       0.34
+     1    58     59       3.07       3.56       0.16
+     1    35     36       3.07       3.43       0.12
+     1    34     35       3.07       3.65       0.19
+     1    33     34       3.07       3.82       0.24
+ 
+ Time of computation ->  20150826.090000      in sec:     118800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       3.09       4.12       0.34
+     1    58     59       3.09       3.57       0.16
+     1    35     36       3.09       3.44       0.12
+     1    34     35       3.09       3.66       0.18
+     1    33     34       3.09       3.82       0.24
+ 
+ Time of computation ->  20150826.120000      in sec:     129600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       3.03       4.04       0.33
+     1    58     59       3.03       3.50       0.15
+     1    35     36       3.03       3.38       0.11
+     1    34     35       3.03       3.59       0.18
+     1    33     34       3.03       3.75       0.24
+ 
+ Time of computation ->  20150826.150000      in sec:     140400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.93       3.88       0.33
+     1    58     59       2.93       3.36       0.15
+     1    35     36       2.93       3.26       0.11
+     1    34     35       2.93       3.46       0.18
+     1    33     34       2.93       3.61       0.23
+ 
+ Time of computation ->  20150826.180000      in sec:     151200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.81       3.69       0.31
+     1    58     59       2.81       3.20       0.14
+     1    35     36       2.81       3.11       0.11
+     1    34     35       2.81       3.29       0.17
+     1    33     34       2.81       3.44       0.23
+ 
+ Time of computation ->  20150826.210000      in sec:     162000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.71       3.54       0.30
+     1    58     59       2.71       3.05       0.12
+     1    35     36       2.71       2.99       0.10
+     1    34     35       2.71       3.18       0.17
+     1    33     34       2.71       3.33       0.23
+ 
+ Time of computation ->  20150827.000000      in sec:     172800.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.63       3.43       0.30
+     1    58     59       2.63       2.94       0.12
+     1    35     36       2.63       2.91       0.10
+     1    34     35       2.63       3.09       0.17
+     1    33     34       2.63       3.23       0.23
+ 
+ Time of computation ->  20150827.030000      in sec:     183600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.55       3.28       0.29
+     1    34     35       2.55       2.97       0.16
+     1    33     34       2.55       3.12       0.22
+ 
+ Time of computation ->  20150827.060000      in sec:     194400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.44       3.10       0.27
+     1    55     56       2.44       2.17       0.11
+     1    54     55       2.44       2.16       0.11
+     1    53     54       2.44       2.18       0.11
+     1    34     35       2.44       2.82       0.15
+     1    33     34       2.44       2.95       0.21
+     1    24     25       2.44       2.19       0.10
+     1    23     24       2.44       2.19       0.10
+ 
+ Time of computation ->  20150827.090000      in sec:     205200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.35       2.95       0.25
+     1    56     57       2.35       2.08       0.12
+     1    55     56       2.35       2.02       0.14
+     1    54     55       2.35       2.01       0.15
+     1    53     54       2.35       2.03       0.14
+     1    52     53       2.35       2.06       0.12
+     1    51     52       2.35       2.09       0.11
+     1    50     51       2.35       2.11       0.10
+     1    45     46       2.35       2.11       0.10
+     1    44     45       2.35       2.10       0.10
+     1    43     44       2.35       2.11       0.10
+     1    34     35       2.35       2.67       0.14
+     1    33     34       2.35       2.80       0.19
+     1    26     27       2.35       2.10       0.11
+     1    25     26       2.35       2.09       0.11
+     1    24     25       2.35       2.07       0.12
+     1    23     24       2.35       2.07       0.12
+     1    22     23       2.35       2.07       0.12
+     1    21     22       2.35       2.09       0.11
+     1    20     21       2.35       2.11       0.10
+ 
+ Time of computation ->  20150827.120000      in sec:     216000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.30       2.84       0.24
+     1    56     57       2.30       1.99       0.13
+     1    55     56       2.30       1.93       0.16
+     1    54     55       2.30       1.93       0.16
+     1    53     54       2.30       1.95       0.15
+     1    52     53       2.30       1.99       0.14
+     1    51     52       2.30       2.01       0.12
+     1    50     51       2.30       2.04       0.11
+     1    49     50       2.30       2.06       0.10
+     1    48     49       2.30       2.07       0.10
+     1    47     48       2.30       2.06       0.10
+     1    46     47       2.30       2.05       0.11
+     1    45     46       2.30       2.04       0.11
+     1    44     45       2.30       2.04       0.11
+     1    43     44       2.30       2.04       0.11
+     1    42     43       2.30       2.06       0.10
+     1    34     35       2.30       2.58       0.12
+     1    33     34       2.30       2.70       0.17
+     1    27     28       2.30       2.06       0.10
+     1    26     27       2.30       2.04       0.11
+     1    25     26       2.30       2.03       0.12
+     1    24     25       2.30       2.01       0.12
+     1    23     24       2.30       2.01       0.13
+     1    22     23       2.30       2.01       0.12
+     1    21     22       2.30       2.03       0.12
+     1    20     21       2.30       2.05       0.11
+ 
+ Time of computation ->  20150827.150000      in sec:     226800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.34       2.76       0.18
+     1    57     58       2.34       2.02       0.14
+     1    56     57       2.34       1.85       0.21
+     1    55     56       2.34       1.79       0.23
+     1    54     55       2.34       1.79       0.24
+     1    53     54       2.34       1.82       0.22
+     1    52     53       2.34       1.86       0.21
+     1    51     52       2.34       1.89       0.19
+     1    50     51       2.34       1.92       0.18
+     1    49     50       2.34       1.95       0.17
+     1    48     49       2.34       1.96       0.16
+     1    47     48       2.34       1.96       0.17
+     1    46     47       2.34       1.95       0.17
+     1    45     46       2.34       1.94       0.17
+     1    44     45       2.34       1.93       0.18
+     1    43     44       2.34       1.93       0.18
+     1    42     43       2.34       1.94       0.17
+     1    41     42       2.34       1.97       0.16
+     1    40     41       2.34       2.00       0.15
+     1    39     40       2.34       2.03       0.14
+     1    38     39       2.34       2.06       0.12
+     1    37     38       2.34       2.10       0.10
+     1    29     30       2.34       2.08       0.11
+     1    28     29       2.34       2.06       0.12
+     1    27     28       2.34       2.02       0.14
+     1    26     27       2.34       1.99       0.15
+     1    25     26       2.34       1.98       0.16
+     1    24     25       2.34       1.95       0.17
+     1    23     24       2.34       1.94       0.17
+     1    22     23       2.34       1.94       0.17
+     1    21     22       2.34       1.95       0.17
+     1    20     21       2.34       1.97       0.16
+     1    19     20       2.34       1.99       0.15
+     1    18     19       2.34       2.01       0.14
+     1    17     18       2.34       2.03       0.13
+     1    16     17       2.34       2.05       0.12
+     1    15     16       2.34       2.07       0.12
+     1    14     15       2.34       2.09       0.11
+     1    13     14       2.34       2.10       0.10
+ 
+ Time of computation ->  20150827.180000      in sec:     237600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.29       2.69       0.17
+     1    57     58       2.29       1.94       0.15
+     1    56     57       2.29       1.79       0.22
+     1    55     56       2.29       1.73       0.25
+     1    54     55       2.29       1.73       0.25
+     1    53     54       2.29       1.76       0.23
+     1    52     53       2.29       1.80       0.22
+     1    51     52       2.29       1.83       0.20
+     1    50     51       2.29       1.86       0.19
+     1    49     50       2.29       1.89       0.17
+     1    48     49       2.29       1.91       0.17
+     1    47     48       2.29       1.90       0.17
+     1    46     47       2.29       1.90       0.17
+     1    45     46       2.29       1.89       0.18
+     1    44     45       2.29       1.88       0.18
+     1    43     44       2.29       1.88       0.18
+     1    42     43       2.29       1.89       0.18
+     1    41     42       2.29       1.92       0.16
+     1    40     41       2.29       1.95       0.15
+     1    39     40       2.29       1.97       0.14
+     1    38     39       2.29       2.01       0.13
+     1    37     38       2.29       2.05       0.11
+     1    29     30       2.29       2.04       0.11
+     1    28     29       2.29       2.02       0.12
+     1    27     28       2.29       1.97       0.14
+     1    26     27       2.29       1.94       0.15
+     1    25     26       2.29       1.93       0.16
+     1    24     25       2.29       1.90       0.17
+     1    23     24       2.29       1.89       0.18
+     1    22     23       2.29       1.88       0.18
+     1    21     22       2.29       1.89       0.18
+     1    20     21       2.29       1.91       0.17
+     1    19     20       2.29       1.93       0.16
+     1    18     19       2.29       1.95       0.15
+     1    17     18       2.29       1.97       0.14
+     1    16     17       2.29       2.00       0.13
+     1    15     16       2.29       2.01       0.12
+     1    14     15       2.29       2.03       0.12
+     1    13     14       2.29       2.04       0.11
+     1    12     13       2.29       2.05       0.10
+     1    11     12       2.29       2.06       0.10
+ 
+ Time of computation ->  20150827.210000      in sec:     248400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       2.15       2.48       0.15
+     1    58     59       2.15       1.88       0.13
+     1    57     58       2.15       1.71       0.21
+     1    56     57       2.15       1.58       0.27
+     1    55     56       2.15       1.52       0.30
+     1    54     55       2.15       1.52       0.30
+     1    53     54       2.15       1.54       0.28
+     1    52     53       2.15       1.58       0.27
+     1    51     52       2.15       1.61       0.25
+     1    50     51       2.15       1.65       0.24
+     1    49     50       2.15       1.68       0.22
+     1    48     49       2.15       1.69       0.21
+     1    47     48       2.15       1.69       0.21
+     1    46     47       2.15       1.69       0.22
+     1    45     46       2.15       1.68       0.22
+     1    44     45       2.15       1.67       0.22
+     1    43     44       2.15       1.67       0.23
+     1    42     43       2.15       1.68       0.22
+     1    41     42       2.15       1.70       0.21
+     1    40     41       2.15       1.72       0.20
+     1    39     40       2.15       1.75       0.19
+     1    38     39       2.15       1.78       0.18
+     1    37     38       2.15       1.81       0.16
+     1    36     37       2.15       1.89       0.12
+     1    31     32       2.15       1.92       0.11
+     1    30     31       2.15       1.88       0.13
+     1    29     30       2.15       1.85       0.14
+     1    28     29       2.15       1.83       0.15
+     1    27     28       2.15       1.78       0.17
+     1    26     27       2.15       1.75       0.19
+     1    25     26       2.15       1.74       0.19
+     1    24     25       2.15       1.71       0.21
+     1    23     24       2.15       1.69       0.22
+     1    22     23       2.15       1.68       0.22
+     1    21     22       2.15       1.68       0.22
+     1    20     21       2.15       1.70       0.21
+     1    19     20       2.15       1.72       0.20
+     1    18     19       2.15       1.74       0.19
+     1    17     18       2.15       1.76       0.18
+     1    16     17       2.15       1.78       0.17
+     1    15     16       2.15       1.80       0.17
+     1    14     15       2.15       1.81       0.16
+     1    13     14       2.15       1.83       0.15
+     1    12     13       2.15       1.84       0.15
+     1    11     12       2.15       1.85       0.14
+     1    10     11       2.15       1.86       0.14
+     1     9     10       2.15       1.86       0.14
+     1     8      9       2.15       1.87       0.13
+     1     7      8       2.15       1.88       0.13
+     1     6      7       2.15       1.89       0.12
+     1     5      6       2.15       1.89       0.12
+     1     4      5       2.15       1.90       0.12
+     1     3      4       2.15       1.92       0.11
+     1     2      3       2.15       1.93       0.10
+   147     1  20023       2.15       1.94       0.10
+   148     1  20259       2.15       1.94       0.10
+   149     1  20497       2.15       1.93       0.10
+   150     1  20738       2.15       1.93       0.10
+   151     1  20981       2.15       1.93       0.10
+   152     1  21230       2.15       1.93       0.10
+   153     1  21482       2.15       1.93       0.11
+   154     1  21737       2.15       1.93       0.11
+   155     1  22004       2.15       1.92       0.11
+   156     1  22276       2.15       1.92       0.11
+   157     1  22549       2.15       1.92       0.11
+   158     1  22821       2.15       1.92       0.11
+   159     1  23100       2.15       1.92       0.11
+   160     1  23380       2.15       1.91       0.11
+   161     1  23677       2.15       1.91       0.11
+   162     1  23981       2.15       1.91       0.11
+   163     1  24300       2.15       1.91       0.11
+   164     1  24623       2.15       1.91       0.11
+   165     1  24955       2.15       1.91       0.11
+   166     1  25297       2.15       1.91       0.12
+   167     1  25640       2.15       1.91       0.12
+   168     1  25982       2.15       1.90       0.12
+   169     1  26322       2.15       1.90       0.12
+   170     1  26665       2.15       1.90       0.12
+   171     1  27006       2.15       1.90       0.12
+   172     1  27349       2.15       1.90       0.12
+   173     1  27702       2.15       1.90       0.12
+   174     1  28058       2.15       1.90       0.12
+   175     1  28419       2.15       1.90       0.12
+   176     1  28786       2.15       1.91       0.12
+   177     1  29153       2.15       1.91       0.11
+   178     1  29522       2.15       1.91       0.11
+   179     1  29900       2.15       1.91       0.11
+   180     1  30284       2.15       1.91       0.11
+   181     1  30667       2.15       1.92       0.11
+   182     1  31052       2.15       1.92       0.11
+   183     1  31442       2.15       1.92       0.11
+   184     1  31834       2.15       1.93       0.11
+   185     1  32229       2.15       1.93       0.10
+   186     1  32622       2.15       1.94       0.10
+ 
+ Time of computation ->  20150828.000000      in sec:     259200.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.88       2.18       0.16
+     1    58     59       1.88       1.66       0.12
+     1    57     58       1.88       1.51       0.20
+     1    56     57       1.88       1.39       0.26
+     1    55     56       1.88       1.34       0.29
+     1    54     55       1.88       1.34       0.29
+     1    53     54       1.88       1.36       0.28
+     1    52     53       1.88       1.40       0.26
+     1    51     52       1.88       1.43       0.24
+     1    50     51       1.88       1.46       0.22
+     1    49     50       1.88       1.49       0.21
+     1    48     49       1.88       1.50       0.20
+     1    47     48       1.88       1.50       0.20
+     1    46     47       1.88       1.50       0.20
+     1    45     46       1.88       1.49       0.21
+     1    44     45       1.88       1.49       0.21
+     1    43     44       1.88       1.48       0.21
+     1    42     43       1.88       1.49       0.21
+     1    41     42       1.88       1.51       0.20
+     1    40     41       1.88       1.53       0.19
+     1    39     40       1.88       1.56       0.17
+     1    38     39       1.88       1.58       0.16
+     1    37     38       1.88       1.61       0.14
+     1    36     37       1.88       1.68       0.11
+     1    30     31       1.88       1.67       0.11
+     1    29     30       1.88       1.64       0.13
+     1    28     29       1.88       1.63       0.14
+     1    27     28       1.88       1.58       0.16
+     1    26     27       1.88       1.56       0.17
+     1    25     26       1.88       1.54       0.18
+     1    24     25       1.88       1.52       0.20
+     1    23     24       1.88       1.49       0.21
+     1    22     23       1.88       1.48       0.21
+     1    21     22       1.88       1.48       0.21
+     1    20     21       1.88       1.50       0.20
+     1    19     20       1.88       1.52       0.19
+     1    18     19       1.88       1.54       0.18
+     1    17     18       1.88       1.55       0.18
+     1    16     17       1.88       1.57       0.17
+     1    15     16       1.88       1.59       0.16
+     1    14     15       1.88       1.60       0.15
+     1    13     14       1.88       1.61       0.14
+     1    12     13       1.88       1.62       0.14
+     1    11     12       1.88       1.63       0.13
+     1    10     11       1.88       1.64       0.13
+     1     9     10       1.88       1.64       0.13
+     1     8      9       1.88       1.64       0.13
+     1     7      8       1.88       1.65       0.12
+     1     6      7       1.88       1.66       0.12
+     1     5      6       1.88       1.66       0.12
+     1     4      5       1.88       1.67       0.11
+     1     3      4       1.88       1.68       0.11
+   149     1  20497       1.88       1.69       0.10
+   150     1  20738       1.88       1.69       0.10
+   151     1  20981       1.88       1.69       0.10
+   152     1  21230       1.88       1.69       0.10
+   153     1  21482       1.88       1.69       0.10
+   154     1  21737       1.88       1.69       0.10
+   155     1  22004       1.88       1.69       0.11
+   156     1  22276       1.88       1.68       0.11
+   157     1  22549       1.88       1.68       0.11
+   158     1  22821       1.88       1.68       0.11
+   159     1  23100       1.88       1.68       0.11
+   160     1  23380       1.88       1.68       0.11
+   161     1  23677       1.88       1.68       0.11
+   162     1  23981       1.88       1.67       0.11
+   163     1  24300       1.88       1.67       0.11
+   164     1  24623       1.88       1.67       0.11
+   165     1  24955       1.88       1.67       0.11
+   166     1  25297       1.88       1.67       0.11
+   167     1  25640       1.88       1.67       0.11
+   168     1  25982       1.88       1.67       0.12
+   169     1  26322       1.88       1.67       0.12
+   170     1  26665       1.88       1.67       0.12
+   171     1  27006       1.88       1.67       0.12
+   172     1  27349       1.88       1.67       0.12
+   173     1  27702       1.88       1.67       0.12
+   174     1  28058       1.88       1.67       0.12
+   175     1  28419       1.88       1.67       0.12
+   176     1  28786       1.88       1.67       0.11
+   177     1  29153       1.88       1.67       0.11
+   178     1  29522       1.88       1.67       0.11
+   179     1  29900       1.88       1.67       0.11
+   180     1  30284       1.88       1.67       0.11
+   181     1  30667       1.88       1.68       0.11
+   182     1  31052       1.88       1.68       0.11
+   183     1  31442       1.88       1.68       0.11
+   184     1  31834       1.88       1.69       0.10
+   185     1  32229       1.88       1.69       0.10
+   186     1  32622       1.88       1.70       0.10
+ 
+ Time of computation ->  20150828.030000      in sec:     270000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.71       2.02       0.18
+     1    57     58       1.71       1.46       0.15
+     1    56     57       1.71       1.35       0.21
+     1    55     56       1.71       1.31       0.24
+     1    54     55       1.71       1.31       0.24
+     1    53     54       1.71       1.33       0.22
+     1    52     53       1.71       1.36       0.21
+     1    51     52       1.71       1.39       0.19
+     1    50     51       1.71       1.41       0.17
+     1    49     50       1.71       1.44       0.16
+     1    48     49       1.71       1.45       0.15
+     1    47     48       1.71       1.45       0.16
+     1    46     47       1.71       1.44       0.16
+     1    45     46       1.71       1.44       0.16
+     1    44     45       1.71       1.43       0.16
+     1    43     44       1.71       1.43       0.16
+     1    42     43       1.71       1.44       0.16
+     1    41     42       1.71       1.46       0.15
+     1    40     41       1.71       1.48       0.13
+     1    39     40       1.71       1.51       0.12
+     1    38     39       1.71       1.53       0.11
+     1    33     34       1.71       1.90       0.11
+     1    28     29       1.71       1.54       0.10
+     1    27     28       1.71       1.50       0.12
+     1    26     27       1.71       1.48       0.14
+     1    25     26       1.71       1.47       0.14
+     1    24     25       1.71       1.45       0.16
+     1    23     24       1.71       1.43       0.16
+     1    22     23       1.71       1.42       0.17
+     1    21     22       1.71       1.43       0.17
+     1    20     21       1.71       1.44       0.16
+     1    19     20       1.71       1.46       0.15
+     1    18     19       1.71       1.48       0.14
+     1    17     18       1.71       1.49       0.13
+     1    16     17       1.71       1.51       0.12
+     1    15     16       1.71       1.52       0.11
+     1    14     15       1.71       1.53       0.11
+     1    13     14       1.71       1.54       0.10
+ 
+ Time of computation ->  20150828.060000      in sec:     280800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.58       1.87       0.18
+     1    57     58       1.58       1.36       0.14
+     1    56     57       1.58       1.25       0.21
+     1    55     56       1.58       1.21       0.23
+     1    54     55       1.58       1.21       0.23
+     1    53     54       1.58       1.23       0.22
+     1    52     53       1.58       1.26       0.20
+     1    51     52       1.58       1.29       0.19
+     1    50     51       1.58       1.31       0.17
+     1    49     50       1.58       1.33       0.16
+     1    48     49       1.58       1.34       0.15
+     1    47     48       1.58       1.34       0.16
+     1    46     47       1.58       1.33       0.16
+     1    45     46       1.58       1.33       0.16
+     1    44     45       1.58       1.32       0.16
+     1    43     44       1.58       1.32       0.16
+     1    42     43       1.58       1.33       0.16
+     1    41     42       1.58       1.35       0.15
+     1    40     41       1.58       1.37       0.13
+     1    39     40       1.58       1.39       0.12
+     1    38     39       1.58       1.41       0.11
+     1    33     34       1.58       1.75       0.11
+     1    28     29       1.58       1.42       0.10
+     1    27     28       1.58       1.38       0.13
+     1    26     27       1.58       1.36       0.14
+     1    25     26       1.58       1.35       0.15
+     1    24     25       1.58       1.33       0.16
+     1    23     24       1.58       1.32       0.17
+     1    22     23       1.58       1.31       0.17
+     1    21     22       1.58       1.32       0.17
+     1    20     21       1.58       1.33       0.16
+     1    19     20       1.58       1.35       0.15
+     1    18     19       1.58       1.36       0.14
+     1    17     18       1.58       1.38       0.13
+     1    16     17       1.58       1.39       0.12
+     1    15     16       1.58       1.40       0.11
+     1    14     15       1.58       1.42       0.11
+     1    13     14       1.58       1.42       0.10
+ 
+ Time of computation ->  20150828.090000      in sec:     291600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.42       1.14       0.20
+     1    57     58       1.42       1.06       0.25
+     1    56     57       1.42       1.02       0.28
+     1    55     56       1.42       1.01       0.29
+     1    54     55       1.42       1.04       0.27
+     1    53     54       1.42       1.07       0.25
+     1    52     53       1.42       1.10       0.23
+     1    51     52       1.42       1.12       0.21
+     1    50     51       1.42       1.14       0.20
+     1    49     50       1.42       1.16       0.18
+     1    48     49       1.42       1.18       0.17
+     1    47     48       1.42       1.18       0.17
+     1    46     47       1.42       1.19       0.16
+     1    45     46       1.42       1.19       0.16
+     1    44     45       1.42       1.19       0.16
+     1    43     44       1.42       1.19       0.16
+     1    42     43       1.42       1.20       0.16
+     1    41     42       1.42       1.21       0.15
+     1    40     41       1.42       1.21       0.15
+     1    39     40       1.42       1.22       0.14
+     1    38     39       1.42       1.23       0.14
+     1    37     38       1.42       1.24       0.13
+     1    36     37       1.42       1.27       0.11
+     1    31     32       1.42       1.27       0.11
+     1    30     31       1.42       1.26       0.11
+     1    29     30       1.42       1.26       0.12
+     1    28     29       1.42       1.26       0.12
+     1    27     28       1.42       1.24       0.13
+     1    26     27       1.42       1.24       0.13
+     1    25     26       1.42       1.24       0.13
+     1    24     25       1.42       1.23       0.13
+     1    23     24       1.42       1.23       0.13
+     1    22     23       1.42       1.23       0.13
+     1    21     22       1.42       1.24       0.13
+     1    20     21       1.42       1.25       0.12
+     1    19     20       1.42       1.26       0.11
+     1    18     19       1.42       1.27       0.10
+ 
+ Time of computation ->  20150828.120000      in sec:     302400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.28       1.01       0.21
+     1    57     58       1.28       0.94       0.26
+     1    56     57       1.28       0.90       0.29
+     1    55     56       1.28       0.90       0.29
+     1    54     55       1.28       0.93       0.27
+     1    53     54       1.28       0.96       0.25
+     1    52     53       1.28       0.99       0.23
+     1    51     52       1.28       1.01       0.21
+     1    50     51       1.28       1.03       0.20
+     1    49     50       1.28       1.04       0.18
+     1    48     49       1.28       1.06       0.17
+     1    47     48       1.28       1.06       0.17
+     1    46     47       1.28       1.06       0.17
+     1    45     46       1.28       1.06       0.17
+     1    44     45       1.28       1.07       0.16
+     1    43     44       1.28       1.07       0.16
+     1    42     43       1.28       1.08       0.16
+     1    41     42       1.28       1.08       0.15
+     1    40     41       1.28       1.09       0.15
+     1    39     40       1.28       1.09       0.14
+     1    38     39       1.28       1.10       0.14
+     1    37     38       1.28       1.11       0.13
+     1    36     37       1.28       1.14       0.11
+     1    31     32       1.28       1.15       0.10
+     1    30     31       1.28       1.14       0.11
+     1    29     30       1.28       1.14       0.11
+     1    28     29       1.28       1.14       0.11
+     1    27     28       1.28       1.12       0.12
+     1    26     27       1.28       1.11       0.13
+     1    25     26       1.28       1.11       0.13
+     1    24     25       1.28       1.10       0.13
+     1    23     24       1.28       1.10       0.14
+     1    22     23       1.28       1.10       0.14
+     1    21     22       1.28       1.11       0.13
+     1    20     21       1.28       1.12       0.12
+     1    19     20       1.28       1.13       0.12
+     1    18     19       1.28       1.14       0.11
+ 
+ Time of computation ->  20150828.150000      in sec:     313200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.20       0.89       0.26
+     1    57     58       1.20       0.81       0.32
+     1    56     57       1.20       0.78       0.35
+     1    55     56       1.20       0.78       0.35
+     1    54     55       1.20       0.80       0.33
+     1    53     54       1.20       0.83       0.31
+     1    52     53       1.20       0.85       0.29
+     1    51     52       1.20       0.88       0.27
+     1    50     51       1.20       0.89       0.25
+     1    49     50       1.20       0.91       0.24
+     1    48     49       1.20       0.92       0.23
+     1    47     48       1.20       0.93       0.22
+     1    46     47       1.20       0.93       0.22
+     1    45     46       1.20       0.93       0.22
+     1    44     45       1.20       0.94       0.22
+     1    43     44       1.20       0.94       0.21
+     1    42     43       1.20       0.95       0.21
+     1    41     42       1.20       0.95       0.21
+     1    40     41       1.20       0.96       0.20
+     1    39     40       1.20       0.96       0.20
+     1    38     39       1.20       0.97       0.19
+     1    37     38       1.20       0.97       0.19
+     1    36     37       1.20       1.00       0.16
+     1    35     36       1.20       1.04       0.13
+     1    34     35       1.20       1.04       0.13
+     1    33     34       1.20       1.03       0.14
+     1    32     33       1.20       1.04       0.13
+     1    31     32       1.20       1.02       0.15
+     1    30     31       1.20       1.02       0.15
+     1    29     30       1.20       1.01       0.15
+     1    28     29       1.20       1.01       0.16
+     1    27     28       1.20       1.00       0.17
+     1    26     27       1.20       0.99       0.18
+     1    25     26       1.20       0.98       0.18
+     1    24     25       1.20       0.98       0.18
+     1    23     24       1.20       0.97       0.19
+     1    22     23       1.20       0.97       0.19
+     1    21     22       1.20       0.98       0.18
+     1    20     21       1.20       0.99       0.17
+     1    19     20       1.20       1.00       0.16
+     1    18     19       1.20       1.01       0.15
+     1    17     18       1.20       1.03       0.14
+     1    16     17       1.20       1.04       0.13
+     1    15     16       1.20       1.05       0.12
+     1    14     15       1.20       1.06       0.12
+     1    13     14       1.20       1.06       0.11
+     1    12     13       1.20       1.07       0.11
+     1    11     12       1.20       1.07       0.11
+     1    10     11       1.20       1.07       0.10
+     1     9     10       1.20       1.07       0.10
+     1     8      9       1.20       1.07       0.10
+     1     7      8       1.20       1.08       0.10
+   142     1  18850       1.20       1.08       0.10
+   143     1  19081       1.20       1.08       0.10
+   144     1  19312       1.20       1.08       0.10
+   145     1  19548       1.20       1.07       0.10
+   146     1  19785       1.20       1.07       0.10
+   147     1  20023       1.20       1.07       0.10
+   148     1  20259       1.20       1.07       0.11
+   149     1  20497       1.20       1.07       0.11
+   150     1  20738       1.20       1.07       0.11
+   151     1  20981       1.20       1.07       0.11
+   152     1  21230       1.20       1.07       0.11
+   153     1  21482       1.20       1.07       0.11
+   154     1  21737       1.20       1.06       0.11
+   155     1  22004       1.20       1.06       0.11
+   156     1  22276       1.20       1.06       0.11
+   157     1  22549       1.20       1.06       0.11
+   158     1  22821       1.20       1.06       0.11
+   159     1  23100       1.20       1.06       0.12
+   160     1  23380       1.20       1.06       0.12
+   161     1  23677       1.20       1.06       0.12
+   162     1  23981       1.20       1.05       0.12
+   163     1  24300       1.20       1.05       0.12
+   164     1  24623       1.20       1.05       0.12
+   165     1  24955       1.20       1.05       0.12
+   166     1  25297       1.20       1.05       0.12
+   167     1  25640       1.20       1.05       0.12
+   168     1  25982       1.20       1.05       0.12
+   169     1  26322       1.20       1.05       0.12
+   170     1  26665       1.20       1.05       0.13
+   171     1  27006       1.20       1.05       0.13
+   172     1  27349       1.20       1.05       0.13
+   173     1  27702       1.20       1.05       0.13
+   174     1  28058       1.20       1.05       0.13
+   175     1  28419       1.20       1.05       0.12
+   176     1  28786       1.20       1.05       0.12
+   177     1  29153       1.20       1.05       0.12
+   178     1  29522       1.20       1.05       0.12
+   179     1  29900       1.20       1.05       0.12
+   180     1  30284       1.20       1.05       0.12
+   181     1  30667       1.20       1.06       0.12
+   182     1  31052       1.20       1.06       0.12
+   183     1  31442       1.20       1.06       0.11
+   184     1  31834       1.20       1.06       0.11
+   185     1  32229       1.20       1.07       0.11
+   186     1  32622       1.20       1.07       0.10
+   187     1  33016       1.20       1.08       0.10
+ 
+ Time of computation ->  20150828.180000      in sec:     324000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.14       0.79       0.30
+     1    57     58       1.14       0.71       0.38
+     1    56     57       1.14       0.68       0.40
+     1    55     56       1.14       0.67       0.41
+     1    54     55       1.14       0.69       0.39
+     1    53     54       1.14       0.72       0.37
+     1    52     53       1.14       0.74       0.35
+     1    51     52       1.14       0.76       0.33
+     1    50     51       1.14       0.78       0.31
+     1    49     50       1.14       0.80       0.30
+     1    48     49       1.14       0.81       0.29
+     1    47     48       1.14       0.82       0.28
+     1    46     47       1.14       0.82       0.28
+     1    45     46       1.14       0.82       0.27
+     1    44     45       1.14       0.83       0.27
+     1    43     44       1.14       0.84       0.27
+     1    42     43       1.14       0.84       0.26
+     1    41     42       1.14       0.84       0.26
+     1    40     41       1.14       0.85       0.26
+     1    39     40       1.14       0.85       0.25
+     1    38     39       1.14       0.85       0.25
+     1    37     38       1.14       0.86       0.24
+     1    36     37       1.14       0.89       0.22
+     1    35     36       1.14       0.92       0.19
+     1    34     35       1.14       0.92       0.19
+     1    33     34       1.14       0.91       0.20
+     1    32     33       1.14       0.93       0.18
+     1    31     32       1.14       0.92       0.19
+     1    30     31       1.14       0.91       0.20
+     1    29     30       1.14       0.90       0.20
+     1    28     29       1.14       0.90       0.20
+     1    27     28       1.14       0.89       0.22
+     1    26     27       1.14       0.88       0.23
+     1    25     26       1.14       0.87       0.23
+     1    24     25       1.14       0.87       0.24
+     1    23     24       1.14       0.86       0.24
+     1    22     23       1.14       0.86       0.24
+     1    21     22       1.14       0.87       0.24
+     1    20     21       1.14       0.88       0.23
+     1    19     20       1.14       0.89       0.22
+     1    18     19       1.14       0.91       0.20
+     1    17     18       1.14       0.92       0.19
+     1    16     17       1.14       0.93       0.18
+     1    15     16       1.14       0.94       0.17
+     1    14     15       1.14       0.95       0.16
+     1    13     14       1.14       0.96       0.16
+     1    12     13       1.14       0.96       0.15
+     1    11     12       1.14       0.97       0.15
+     1    10     11       1.14       0.97       0.15
+     1     9     10       1.14       0.97       0.15
+     1     8      9       1.14       0.97       0.15
+     1     7      8       1.14       0.97       0.15
+     1     6      7       1.14       0.97       0.14
+     1     5      6       1.14       0.98       0.14
+     1     4      5       1.14       0.98       0.14
+     1     3      4       1.14       0.98       0.14
+     1     2      3       1.14       0.98       0.14
+     1     1      2       1.14       0.99       0.13
+     2     1     61       1.14       0.99       0.13
+     3     1    120       1.14       0.99       0.13
+     4     1    179       1.14       0.99       0.13
+     5     1    238       1.14       0.99       0.13
+     6     1    296       1.14       0.99       0.13
+     7     1    354       1.14       0.99       0.13
+     8     1    412       1.14       0.99       0.13
+     9     1    470       1.14       0.99       0.13
+    10     1    528       1.14       0.99       0.13
+    11     1    586       1.14       0.99       0.13
+    12     1    644       1.14       0.99       0.13
+    13     1    702       1.14       0.99       0.13
+    14     1    760       1.14       0.99       0.13
+    15     1    818       1.14       0.99       0.13
+    16     1    876       1.14       0.99       0.13
+    17     1    934       1.14       0.99       0.13
+    18     1    992       1.14       0.99       0.13
+    19     1   1050       1.14       0.99       0.13
+    20     1   1108       1.14       0.99       0.13
+    21     1   1166       1.14       0.99       0.13
+    22     1   1224       1.14       0.99       0.13
+    23     1   1281       1.14       0.99       0.13
+    24     1   1338       1.14       1.00       0.12
+    25     1   1395       1.14       1.00       0.12
+    26     1   1452       1.14       1.00       0.12
+    27     1   1510       1.14       1.00       0.12
+    28     1   1568       1.14       1.00       0.12
+    29     1   1627       1.14       1.00       0.12
+    30     1   1686       1.14       1.00       0.12
+    31     1   1745       1.14       1.00       0.12
+    32     1   1803       1.14       1.00       0.12
+    33     1   1861       1.14       1.00       0.12
+    34     1   1922       1.14       1.00       0.12
+    35     1   1988       1.14       1.00       0.12
+    36     1   2054       1.14       1.00       0.12
+    37     1   2121       1.14       1.00       0.12
+    38     1   2188       1.14       1.00       0.12
+    39     1   2256       1.14       1.00       0.12
+    40     1   2324       1.14       1.00       0.12
+    41     1   2392       1.14       1.00       0.12
+    42     1   2461       1.14       1.00       0.12
+    43     1   2530       1.14       1.00       0.12
+    44     1   2598       1.14       1.00       0.12
+    45     1   2666       1.14       1.00       0.12
+    46     1   2735       1.14       1.00       0.12
+    47     1   2810       1.14       1.00       0.12
+    48     1   2888       1.14       1.00       0.12
+    49     1   2973       1.14       1.00       0.12
+    50     1   3074       1.14       1.00       0.12
+    51     1   3183       1.14       1.00       0.12
+    52     1   3302       1.14       1.00       0.12
+    53     1   3423       1.14       1.00       0.12
+    54     1   3546       1.14       1.00       0.12
+    55     1   3668       1.14       1.00       0.12
+    56     1   3794       1.14       1.00       0.12
+    57     1   3924       1.14       1.00       0.12
+    58     1   4054       1.14       1.00       0.12
+    59     1   4186       1.14       1.00       0.12
+    60     1   4320       1.14       1.00       0.12
+    61     1   4454       1.14       1.00       0.12
+    62     1   4585       1.14       1.00       0.12
+    63     1   4714       1.14       1.00       0.12
+    64     1   4844       1.14       1.00       0.12
+    65     1   4973       1.14       1.00       0.12
+    66     1   5104       1.14       1.00       0.12
+    67     1   5233       1.14       1.00       0.12
+    68     1   5367       1.14       1.00       0.12
+    69     1   5501       1.14       1.00       0.12
+    70     1   5636       1.14       1.00       0.12
+    71     1   5771       1.14       1.00       0.12
+    72     1   5906       1.14       1.00       0.12
+    73     1   6039       1.14       1.00       0.12
+    74     1   6170       1.14       1.00       0.12
+    75     1   6298       1.14       1.00       0.12
+    76     1   6426       1.14       1.00       0.12
+    77     1   6551       1.14       1.00       0.12
+    78     1   6676       1.14       1.00       0.12
+    79     1   6800       1.14       1.00       0.12
+    80     1   6926       1.14       1.00       0.12
+    81     1   7052       1.14       1.00       0.12
+    82     1   7179       1.14       1.00       0.12
+    83     1   7308       1.14       1.00       0.12
+    84     1   7436       1.14       1.00       0.12
+    85     1   7563       1.14       1.00       0.12
+    86     1   7690       1.14       1.00       0.12
+    87     1   7819       1.14       1.00       0.12
+    88     1   7954       1.14       1.00       0.12
+    89     1   8095       1.14       1.00       0.12
+    90     1   8235       1.14       1.00       0.12
+    91     1   8373       1.14       1.00       0.12
+    92     1   8509       1.14       1.00       0.12
+    93     1   8647       1.14       1.00       0.12
+    94     1   8791       1.14       1.00       0.12
+    95     1   8943       1.14       1.00       0.12
+    96     1   9096       1.14       1.00       0.12
+    97     1   9254       1.14       1.00       0.12
+    98     1   9410       1.14       1.00       0.12
+    99     1   9573       1.14       1.00       0.12
+   100     1   9737       1.14       1.00       0.12
+   101     1   9904       1.14       1.00       0.12
+   102     1  10077       1.14       1.00       0.12
+   103     1  10255       1.14       1.00       0.12
+   104     1  10430       1.14       1.00       0.12
+   105     1  10607       1.14       1.00       0.12
+   106     1  10785       1.14       1.00       0.12
+   107     1  10967       1.14       1.00       0.12
+   108     1  11152       1.14       1.00       0.12
+   109     1  11338       1.14       1.00       0.12
+   110     1  11531       1.14       1.00       0.12
+   111     1  11726       1.14       1.00       0.12
+   112     1  11917       1.14       1.00       0.12
+   113     1  12115       1.14       1.00       0.12
+   114     1  12318       1.14       1.00       0.12
+   115     1  12532       1.14       1.00       0.12
+   116     1  12749       1.14       1.00       0.12
+   117     1  12970       1.14       1.00       0.12
+   118     1  13193       1.14       1.00       0.12
+   119     1  13417       1.14       0.99       0.13
+   120     1  13641       1.14       0.99       0.13
+   121     1  13868       1.14       0.99       0.13
+   122     1  14097       1.14       0.99       0.13
+   123     1  14328       1.14       0.99       0.13
+   124     1  14560       1.14       0.98       0.13
+   125     1  14796       1.14       0.98       0.14
+   126     1  15033       1.14       0.98       0.14
+   127     1  15269       1.14       0.98       0.14
+   128     1  15507       1.14       0.98       0.14
+   129     1  15745       1.14       0.98       0.14
+   130     1  15984       1.14       0.98       0.14
+   131     1  16221       1.14       0.98       0.14
+   132     1  16459       1.14       0.98       0.14
+   133     1  16698       1.14       0.98       0.14
+   134     1  16938       1.14       0.98       0.14
+   135     1  17179       1.14       0.98       0.14
+   136     1  17421       1.14       0.98       0.14
+   137     1  17662       1.14       0.98       0.14
+   138     1  17903       1.14       0.98       0.14
+   139     1  18141       1.14       0.98       0.14
+   140     1  18378       1.14       0.98       0.14
+   141     1  18615       1.14       0.98       0.14
+   142     1  18850       1.14       0.97       0.14
+   143     1  19081       1.14       0.97       0.14
+   144     1  19312       1.14       0.97       0.14
+   145     1  19548       1.14       0.97       0.15
+   146     1  19785       1.14       0.97       0.15
+   147     1  20023       1.14       0.97       0.15
+   148     1  20259       1.14       0.97       0.15
+   149     1  20497       1.14       0.97       0.15
+   150     1  20738       1.14       0.97       0.15
+   151     1  20981       1.14       0.96       0.15
+   152     1  21230       1.14       0.96       0.15
+   153     1  21482       1.14       0.96       0.15
+   154     1  21737       1.14       0.96       0.16
+   155     1  22004       1.14       0.96       0.16
+   156     1  22276       1.14       0.96       0.16
+   157     1  22549       1.14       0.95       0.16
+   158     1  22821       1.14       0.95       0.16
+   159     1  23100       1.14       0.95       0.16
+   160     1  23380       1.14       0.95       0.16
+   161     1  23677       1.14       0.95       0.17
+   162     1  23981       1.14       0.95       0.17
+   163     1  24300       1.14       0.95       0.17
+   164     1  24623       1.14       0.94       0.17
+   165     1  24955       1.14       0.94       0.17
+   166     1  25297       1.14       0.94       0.17
+   167     1  25640       1.14       0.94       0.17
+   168     1  25982       1.14       0.94       0.18
+   169     1  26322       1.14       0.94       0.18
+   170     1  26665       1.14       0.94       0.18
+   171     1  27006       1.14       0.94       0.18
+   172     1  27349       1.14       0.94       0.18
+   173     1  27702       1.14       0.94       0.18
+   174     1  28058       1.14       0.94       0.18
+   175     1  28419       1.14       0.94       0.18
+   176     1  28786       1.14       0.94       0.18
+   177     1  29153       1.14       0.94       0.18
+   178     1  29522       1.14       0.94       0.17
+   179     1  29900       1.14       0.94       0.17
+   180     1  30284       1.14       0.94       0.17
+   181     1  30667       1.14       0.95       0.17
+   182     1  31052       1.14       0.95       0.17
+   183     1  31442       1.14       0.95       0.16
+   184     1  31834       1.14       0.96       0.16
+   185     1  32229       1.14       0.96       0.16
+   186     1  32622       1.14       0.96       0.15
+   187     1  33016       1.14       0.97       0.15
+   188     1  33407       1.14       0.98       0.14
+   189     1  33802       1.14       0.99       0.13
+   190     1  34197       1.14       1.00       0.12
+   191     1  34592       1.14       1.01       0.11
+ 
+ Time of computation ->  20150828.210000      in sec:     334800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.08       0.76       0.30
+     1    57     58       1.08       0.67       0.38
+     1    56     57       1.08       0.65       0.40
+     1    55     56       1.08       0.64       0.41
+     1    54     55       1.08       0.66       0.40
+     1    53     54       1.08       0.68       0.37
+     1    52     53       1.08       0.70       0.35
+     1    51     52       1.08       0.73       0.33
+     1    50     51       1.08       0.74       0.31
+     1    49     50       1.08       0.76       0.30
+     1    48     49       1.08       0.77       0.29
+     1    47     48       1.08       0.78       0.28
+     1    46     47       1.08       0.78       0.28
+     1    45     46       1.08       0.78       0.28
+     1    44     45       1.08       0.79       0.27
+     1    43     44       1.08       0.80       0.27
+     1    42     43       1.08       0.80       0.26
+     1    41     42       1.08       0.80       0.26
+     1    40     41       1.08       0.81       0.26
+     1    39     40       1.08       0.81       0.25
+     1    38     39       1.08       0.82       0.25
+     1    37     38       1.08       0.82       0.24
+     1    36     37       1.08       0.85       0.22
+     1    35     36       1.08       0.88       0.19
+     1    34     35       1.08       0.89       0.18
+     1    33     34       1.08       0.87       0.20
+     1    32     33       1.08       0.89       0.18
+     1    31     32       1.08       0.88       0.19
+     1    30     31       1.08       0.87       0.20
+     1    29     30       1.08       0.86       0.20
+     1    28     29       1.08       0.86       0.20
+     1    27     28       1.08       0.85       0.22
+     1    26     27       1.08       0.84       0.23
+     1    25     26       1.08       0.83       0.23
+     1    24     25       1.08       0.83       0.24
+     1    23     24       1.08       0.82       0.24
+     1    22     23       1.08       0.82       0.24
+     1    21     22       1.08       0.83       0.24
+     1    20     21       1.08       0.84       0.23
+     1    19     20       1.08       0.85       0.22
+     1    18     19       1.08       0.86       0.20
+     1    17     18       1.08       0.88       0.19
+     1    16     17       1.08       0.89       0.18
+     1    15     16       1.08       0.90       0.17
+     1    14     15       1.08       0.91       0.16
+     1    13     14       1.08       0.92       0.15
+     1    12     13       1.08       0.92       0.15
+     1    11     12       1.08       0.92       0.15
+     1    10     11       1.08       0.93       0.15
+     1     9     10       1.08       0.93       0.14
+     1     8      9       1.08       0.93       0.14
+     1     7      8       1.08       0.93       0.14
+     1     6      7       1.08       0.93       0.14
+     1     5      6       1.08       0.93       0.14
+     1     4      5       1.08       0.94       0.14
+     1     3      4       1.08       0.94       0.13
+     1     2      3       1.08       0.94       0.13
+     1     1      2       1.08       0.95       0.13
+     2     1     61       1.08       0.95       0.13
+     3     1    120       1.08       0.95       0.13
+     4     1    179       1.08       0.95       0.13
+     5     1    238       1.08       0.95       0.13
+     6     1    296       1.08       0.95       0.13
+     7     1    354       1.08       0.95       0.13
+     8     1    412       1.08       0.95       0.13
+     9     1    470       1.08       0.95       0.13
+    10     1    528       1.08       0.95       0.13
+    11     1    586       1.08       0.95       0.13
+    12     1    644       1.08       0.95       0.13
+    13     1    702       1.08       0.95       0.12
+    14     1    760       1.08       0.95       0.12
+    15     1    818       1.08       0.95       0.12
+    16     1    876       1.08       0.95       0.12
+    17     1    934       1.08       0.95       0.12
+    18     1    992       1.08       0.95       0.12
+    19     1   1050       1.08       0.95       0.12
+    20     1   1108       1.08       0.95       0.12
+    21     1   1166       1.08       0.95       0.12
+    22     1   1224       1.08       0.95       0.12
+    23     1   1281       1.08       0.95       0.12
+    24     1   1338       1.08       0.95       0.12
+    25     1   1395       1.08       0.95       0.12
+    26     1   1452       1.08       0.95       0.12
+    27     1   1510       1.08       0.95       0.12
+    28     1   1568       1.08       0.95       0.12
+    29     1   1627       1.08       0.95       0.12
+    30     1   1686       1.08       0.95       0.12
+    31     1   1745       1.08       0.96       0.12
+    32     1   1803       1.08       0.96       0.12
+    33     1   1861       1.08       0.96       0.12
+    34     1   1922       1.08       0.96       0.12
+    35     1   1988       1.08       0.96       0.12
+    36     1   2054       1.08       0.96       0.12
+    37     1   2121       1.08       0.96       0.12
+    38     1   2188       1.08       0.96       0.12
+    39     1   2256       1.08       0.96       0.12
+    40     1   2324       1.08       0.96       0.12
+    41     1   2392       1.08       0.96       0.12
+    42     1   2461       1.08       0.96       0.12
+    43     1   2530       1.08       0.96       0.12
+    44     1   2598       1.08       0.96       0.12
+    45     1   2666       1.08       0.96       0.12
+    46     1   2735       1.08       0.96       0.12
+    47     1   2810       1.08       0.96       0.12
+    48     1   2888       1.08       0.96       0.12
+    49     1   2973       1.08       0.96       0.12
+    50     1   3074       1.08       0.96       0.12
+    51     1   3183       1.08       0.96       0.12
+    52     1   3302       1.08       0.96       0.12
+    53     1   3423       1.08       0.96       0.12
+    54     1   3546       1.08       0.96       0.12
+    55     1   3668       1.08       0.96       0.11
+    56     1   3794       1.08       0.96       0.11
+    57     1   3924       1.08       0.96       0.11
+    58     1   4054       1.08       0.96       0.11
+    59     1   4186       1.08       0.96       0.11
+    60     1   4320       1.08       0.96       0.11
+    61     1   4454       1.08       0.96       0.11
+    62     1   4585       1.08       0.96       0.11
+    63     1   4714       1.08       0.96       0.11
+    64     1   4844       1.08       0.96       0.11
+    65     1   4973       1.08       0.96       0.11
+    66     1   5104       1.08       0.96       0.11
+    67     1   5233       1.08       0.96       0.11
+    68     1   5367       1.08       0.96       0.11
+    69     1   5501       1.08       0.96       0.11
+    70     1   5636       1.08       0.96       0.11
+    71     1   5771       1.08       0.96       0.11
+    72     1   5906       1.08       0.96       0.11
+    73     1   6039       1.08       0.96       0.11
+    74     1   6170       1.08       0.96       0.11
+    75     1   6298       1.08       0.96       0.11
+    76     1   6426       1.08       0.96       0.11
+    77     1   6551       1.08       0.96       0.11
+    78     1   6676       1.08       0.96       0.11
+    79     1   6800       1.08       0.96       0.11
+    80     1   6926       1.08       0.96       0.11
+    81     1   7052       1.08       0.96       0.11
+    82     1   7179       1.08       0.96       0.11
+    83     1   7308       1.08       0.96       0.11
+    84     1   7436       1.08       0.96       0.11
+    85     1   7563       1.08       0.96       0.11
+    86     1   7690       1.08       0.96       0.11
+    87     1   7819       1.08       0.96       0.11
+    88     1   7954       1.08       0.96       0.11
+    89     1   8095       1.08       0.96       0.11
+    90     1   8235       1.08       0.96       0.11
+    91     1   8373       1.08       0.96       0.11
+    92     1   8509       1.08       0.96       0.11
+    93     1   8647       1.08       0.96       0.11
+    94     1   8791       1.08       0.96       0.11
+    95     1   8943       1.08       0.96       0.11
+    96     1   9096       1.08       0.96       0.11
+    97     1   9254       1.08       0.96       0.11
+    98     1   9410       1.08       0.96       0.11
+    99     1   9573       1.08       0.96       0.11
+   100     1   9737       1.08       0.96       0.11
+   101     1   9904       1.08       0.96       0.11
+   102     1  10077       1.08       0.96       0.11
+   103     1  10255       1.08       0.96       0.11
+   104     1  10430       1.08       0.96       0.11
+   105     1  10607       1.08       0.96       0.11
+   106     1  10785       1.08       0.96       0.11
+   107     1  10967       1.08       0.96       0.11
+   108     1  11152       1.08       0.96       0.11
+   109     1  11338       1.08       0.96       0.11
+   110     1  11531       1.08       0.96       0.11
+   111     1  11726       1.08       0.96       0.12
+   112     1  11917       1.08       0.96       0.12
+   113     1  12115       1.08       0.96       0.12
+   114     1  12318       1.08       0.96       0.12
+   115     1  12532       1.08       0.96       0.12
+   116     1  12749       1.08       0.96       0.12
+   117     1  12970       1.08       0.96       0.12
+   118     1  13193       1.08       0.95       0.12
+   119     1  13417       1.08       0.95       0.12
+   120     1  13641       1.08       0.95       0.12
+   121     1  13868       1.08       0.95       0.12
+   122     1  14097       1.08       0.95       0.13
+   123     1  14328       1.08       0.95       0.13
+   124     1  14560       1.08       0.94       0.13
+   125     1  14796       1.08       0.94       0.13
+   126     1  15033       1.08       0.94       0.13
+   127     1  15269       1.08       0.94       0.13
+   128     1  15507       1.08       0.94       0.13
+   129     1  15745       1.08       0.94       0.13
+   130     1  15984       1.08       0.94       0.13
+   131     1  16221       1.08       0.94       0.13
+   132     1  16459       1.08       0.94       0.13
+   133     1  16698       1.08       0.94       0.13
+   134     1  16938       1.08       0.94       0.14
+   135     1  17179       1.08       0.94       0.14
+   136     1  17421       1.08       0.94       0.14
+   137     1  17662       1.08       0.94       0.14
+   138     1  17903       1.08       0.94       0.14
+   139     1  18141       1.08       0.94       0.14
+   140     1  18378       1.08       0.93       0.14
+   141     1  18615       1.08       0.93       0.14
+   142     1  18850       1.08       0.93       0.14
+   143     1  19081       1.08       0.93       0.14
+   144     1  19312       1.08       0.93       0.14
+   145     1  19548       1.08       0.93       0.14
+   146     1  19785       1.08       0.93       0.14
+   147     1  20023       1.08       0.93       0.15
+   148     1  20259       1.08       0.93       0.15
+   149     1  20497       1.08       0.92       0.15
+   150     1  20738       1.08       0.92       0.15
+   151     1  20981       1.08       0.92       0.15
+   152     1  21230       1.08       0.92       0.15
+   153     1  21482       1.08       0.92       0.15
+   154     1  21737       1.08       0.92       0.15
+   155     1  22004       1.08       0.92       0.16
+   156     1  22276       1.08       0.91       0.16
+   157     1  22549       1.08       0.91       0.16
+   158     1  22821       1.08       0.91       0.16
+   159     1  23100       1.08       0.91       0.16
+   160     1  23380       1.08       0.91       0.16
+   161     1  23677       1.08       0.91       0.16
+   162     1  23981       1.08       0.91       0.17
+   163     1  24300       1.08       0.90       0.17
+   164     1  24623       1.08       0.90       0.17
+   165     1  24955       1.08       0.90       0.17
+   166     1  25297       1.08       0.90       0.17
+   167     1  25640       1.08       0.90       0.17
+   168     1  25982       1.08       0.90       0.17
+   169     1  26322       1.08       0.90       0.17
+   170     1  26665       1.08       0.89       0.18
+   171     1  27006       1.08       0.89       0.18
+   172     1  27349       1.08       0.89       0.18
+   173     1  27702       1.08       0.89       0.18
+   174     1  28058       1.08       0.89       0.18
+   175     1  28419       1.08       0.89       0.18
+   176     1  28786       1.08       0.89       0.18
+   177     1  29153       1.08       0.90       0.17
+   178     1  29522       1.08       0.90       0.17
+   179     1  29900       1.08       0.90       0.17
+   180     1  30284       1.08       0.90       0.17
+   181     1  30667       1.08       0.90       0.17
+   182     1  31052       1.08       0.91       0.17
+   183     1  31442       1.08       0.91       0.16
+   184     1  31834       1.08       0.91       0.16
+   185     1  32229       1.08       0.92       0.15
+   186     1  32622       1.08       0.92       0.15
+   187     1  33016       1.08       0.93       0.14
+   188     1  33407       1.08       0.94       0.14
+   189     1  33802       1.08       0.94       0.13
+   190     1  34197       1.08       0.95       0.12
+   191     1  34592       1.08       0.97       0.11
+ 
+ Time of computation ->  20150829.000000      in sec:     345600.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.05       0.74       0.30
+     1    57     58       1.05       0.65       0.38
+     1    56     57       1.05       0.63       0.40
+     1    55     56       1.05       0.62       0.41
+     1    54     55       1.05       0.63       0.40
+     1    53     54       1.05       0.66       0.37
+     1    52     53       1.05       0.68       0.35
+     1    51     52       1.05       0.70       0.33
+     1    50     51       1.05       0.72       0.32
+     1    49     50       1.05       0.74       0.30
+     1    48     49       1.05       0.75       0.29
+     1    47     48       1.05       0.75       0.28
+     1    46     47       1.05       0.76       0.28
+     1    45     46       1.05       0.76       0.28
+     1    44     45       1.05       0.76       0.28
+     1    43     44       1.05       0.77       0.27
+     1    42     43       1.05       0.77       0.27
+     1    41     42       1.05       0.78       0.26
+     1    40     41       1.05       0.78       0.26
+     1    39     40       1.05       0.79       0.26
+     1    38     39       1.05       0.79       0.25
+     1    37     38       1.05       0.80       0.24
+     1    36     37       1.05       0.82       0.22
+     1    35     36       1.05       0.86       0.19
+     1    34     35       1.05       0.86       0.18
+     1    33     34       1.05       0.85       0.20
+     1    32     33       1.05       0.87       0.18
+     1    31     32       1.05       0.85       0.19
+     1    30     31       1.05       0.84       0.20
+     1    29     30       1.05       0.84       0.20
+     1    28     29       1.05       0.84       0.21
+     1    27     28       1.05       0.82       0.22
+     1    26     27       1.05       0.81       0.23
+     1    25     26       1.05       0.81       0.23
+     1    24     25       1.05       0.80       0.24
+     1    23     24       1.05       0.80       0.24
+     1    22     23       1.05       0.79       0.25
+     1    21     22       1.05       0.80       0.24
+     1    20     21       1.05       0.81       0.23
+     1    19     20       1.05       0.82       0.22
+     1    18     19       1.05       0.84       0.21
+     1    17     18       1.05       0.85       0.19
+     1    16     17       1.05       0.86       0.18
+     1    15     16       1.05       0.87       0.17
+     1    14     15       1.05       0.88       0.16
+     1    13     14       1.05       0.89       0.16
+     1    12     13       1.05       0.89       0.15
+     1    11     12       1.05       0.90       0.15
+     1    10     11       1.05       0.90       0.15
+     1     9     10       1.05       0.90       0.15
+     1     8      9       1.05       0.90       0.15
+     1     7      8       1.05       0.90       0.14
+     1     6      7       1.05       0.90       0.14
+     1     5      6       1.05       0.91       0.14
+     1     4      5       1.05       0.91       0.14
+     1     3      4       1.05       0.91       0.14
+     1     2      3       1.05       0.91       0.13
+     1     1      2       1.05       0.92       0.13
+     2     1     61       1.05       0.92       0.13
+     3     1    120       1.05       0.92       0.13
+     4     1    179       1.05       0.92       0.13
+     5     1    238       1.05       0.92       0.13
+     6     1    296       1.05       0.92       0.13
+     7     1    354       1.05       0.92       0.13
+     8     1    412       1.05       0.92       0.13
+     9     1    470       1.05       0.92       0.13
+    10     1    528       1.05       0.92       0.13
+    11     1    586       1.05       0.92       0.13
+    12     1    644       1.05       0.92       0.13
+    13     1    702       1.05       0.92       0.13
+    14     1    760       1.05       0.92       0.13
+    15     1    818       1.05       0.92       0.13
+    16     1    876       1.05       0.92       0.12
+    17     1    934       1.05       0.92       0.12
+    18     1    992       1.05       0.92       0.12
+    19     1   1050       1.05       0.92       0.12
+    20     1   1108       1.05       0.92       0.12
+    21     1   1166       1.05       0.92       0.12
+    22     1   1224       1.05       0.92       0.12
+    23     1   1281       1.05       0.92       0.12
+    24     1   1338       1.05       0.93       0.12
+    25     1   1395       1.05       0.93       0.12
+    26     1   1452       1.05       0.93       0.12
+    27     1   1510       1.05       0.93       0.12
+    28     1   1568       1.05       0.93       0.12
+    29     1   1627       1.05       0.93       0.12
+    30     1   1686       1.05       0.93       0.12
+    31     1   1745       1.05       0.93       0.12
+    32     1   1803       1.05       0.93       0.12
+    33     1   1861       1.05       0.93       0.12
+    34     1   1922       1.05       0.93       0.12
+    35     1   1988       1.05       0.93       0.12
+    36     1   2054       1.05       0.93       0.12
+    37     1   2121       1.05       0.93       0.12
+    38     1   2188       1.05       0.93       0.12
+    39     1   2256       1.05       0.93       0.12
+    40     1   2324       1.05       0.93       0.12
+    41     1   2392       1.05       0.93       0.12
+    42     1   2461       1.05       0.93       0.12
+    43     1   2530       1.05       0.93       0.12
+    44     1   2598       1.05       0.93       0.12
+    45     1   2666       1.05       0.93       0.12
+    46     1   2735       1.05       0.93       0.12
+    47     1   2810       1.05       0.93       0.12
+    48     1   2888       1.05       0.93       0.12
+    49     1   2973       1.05       0.93       0.12
+    50     1   3074       1.05       0.93       0.12
+    51     1   3183       1.05       0.93       0.12
+    52     1   3302       1.05       0.93       0.12
+    53     1   3423       1.05       0.93       0.12
+    54     1   3546       1.05       0.93       0.12
+    55     1   3668       1.05       0.93       0.12
+    56     1   3794       1.05       0.93       0.12
+    57     1   3924       1.05       0.93       0.12
+    58     1   4054       1.05       0.93       0.12
+    59     1   4186       1.05       0.93       0.12
+    60     1   4320       1.05       0.93       0.12
+    61     1   4454       1.05       0.93       0.12
+    62     1   4585       1.05       0.93       0.12
+    63     1   4714       1.05       0.93       0.12
+    64     1   4844       1.05       0.93       0.12
+    65     1   4973       1.05       0.93       0.12
+    66     1   5104       1.05       0.93       0.12
+    67     1   5233       1.05       0.93       0.11
+    68     1   5367       1.05       0.93       0.11
+    69     1   5501       1.05       0.93       0.11
+    70     1   5636       1.05       0.93       0.11
+    71     1   5771       1.05       0.93       0.11
+    72     1   5906       1.05       0.93       0.11
+    73     1   6039       1.05       0.93       0.11
+    74     1   6170       1.05       0.93       0.11
+    75     1   6298       1.05       0.93       0.11
+    76     1   6426       1.05       0.93       0.11
+    77     1   6551       1.05       0.93       0.11
+    78     1   6676       1.05       0.93       0.11
+    79     1   6800       1.05       0.93       0.11
+    80     1   6926       1.05       0.93       0.11
+    81     1   7052       1.05       0.93       0.11
+    82     1   7179       1.05       0.93       0.11
+    83     1   7308       1.05       0.93       0.11
+    84     1   7436       1.05       0.93       0.11
+    85     1   7563       1.05       0.94       0.11
+    86     1   7690       1.05       0.94       0.11
+    87     1   7819       1.05       0.94       0.11
+    88     1   7954       1.05       0.94       0.11
+    89     1   8095       1.05       0.94       0.11
+    90     1   8235       1.05       0.94       0.11
+    91     1   8373       1.05       0.94       0.11
+    92     1   8509       1.05       0.94       0.11
+    93     1   8647       1.05       0.94       0.11
+    94     1   8791       1.05       0.94       0.11
+    95     1   8943       1.05       0.94       0.11
+    96     1   9096       1.05       0.94       0.11
+    97     1   9254       1.05       0.94       0.11
+    98     1   9410       1.05       0.94       0.11
+    99     1   9573       1.05       0.94       0.11
+   100     1   9737       1.05       0.94       0.11
+   101     1   9904       1.05       0.93       0.11
+   102     1  10077       1.05       0.93       0.11
+   103     1  10255       1.05       0.93       0.11
+   104     1  10430       1.05       0.93       0.11
+   105     1  10607       1.05       0.93       0.11
+   106     1  10785       1.05       0.93       0.11
+   107     1  10967       1.05       0.93       0.11
+   108     1  11152       1.05       0.93       0.11
+   109     1  11338       1.05       0.93       0.11
+   110     1  11531       1.05       0.93       0.11
+   111     1  11726       1.05       0.93       0.11
+   112     1  11917       1.05       0.93       0.12
+   113     1  12115       1.05       0.93       0.12
+   114     1  12318       1.05       0.93       0.12
+   115     1  12532       1.05       0.93       0.12
+   116     1  12749       1.05       0.93       0.12
+   117     1  12970       1.05       0.93       0.12
+   118     1  13193       1.05       0.93       0.12
+   119     1  13417       1.05       0.93       0.12
+   120     1  13641       1.05       0.93       0.12
+   121     1  13868       1.05       0.92       0.12
+   122     1  14097       1.05       0.92       0.13
+   123     1  14328       1.05       0.92       0.13
+   124     1  14560       1.05       0.92       0.13
+   125     1  14796       1.05       0.92       0.13
+   126     1  15033       1.05       0.91       0.13
+   127     1  15269       1.05       0.91       0.13
+   128     1  15507       1.05       0.91       0.13
+   129     1  15745       1.05       0.91       0.13
+   130     1  15984       1.05       0.91       0.13
+   131     1  16221       1.05       0.91       0.13
+   132     1  16459       1.05       0.91       0.13
+   133     1  16698       1.05       0.91       0.14
+   134     1  16938       1.05       0.91       0.14
+   135     1  17179       1.05       0.91       0.14
+   136     1  17421       1.05       0.91       0.14
+   137     1  17662       1.05       0.91       0.14
+   138     1  17903       1.05       0.91       0.14
+   139     1  18141       1.05       0.91       0.14
+   140     1  18378       1.05       0.91       0.14
+   141     1  18615       1.05       0.91       0.14
+   142     1  18850       1.05       0.91       0.14
+   143     1  19081       1.05       0.91       0.14
+   144     1  19312       1.05       0.90       0.14
+   145     1  19548       1.05       0.90       0.14
+   146     1  19785       1.05       0.90       0.14
+   147     1  20023       1.05       0.90       0.15
+   148     1  20259       1.05       0.90       0.15
+   149     1  20497       1.05       0.90       0.15
+   150     1  20738       1.05       0.90       0.15
+   151     1  20981       1.05       0.90       0.15
+   152     1  21230       1.05       0.89       0.15
+   153     1  21482       1.05       0.89       0.15
+   154     1  21737       1.05       0.89       0.15
+   155     1  22004       1.05       0.89       0.16
+   156     1  22276       1.05       0.89       0.16
+   157     1  22549       1.05       0.89       0.16
+   158     1  22821       1.05       0.89       0.16
+   159     1  23100       1.05       0.88       0.16
+   160     1  23380       1.05       0.88       0.16
+   161     1  23677       1.05       0.88       0.16
+   162     1  23981       1.05       0.88       0.17
+   163     1  24300       1.05       0.88       0.17
+   164     1  24623       1.05       0.88       0.17
+   165     1  24955       1.05       0.87       0.17
+   166     1  25297       1.05       0.87       0.17
+   167     1  25640       1.05       0.87       0.17
+   168     1  25982       1.05       0.87       0.17
+   169     1  26322       1.05       0.87       0.17
+   170     1  26665       1.05       0.87       0.18
+   171     1  27006       1.05       0.87       0.18
+   172     1  27349       1.05       0.87       0.18
+   173     1  27702       1.05       0.87       0.18
+   174     1  28058       1.05       0.87       0.18
+   175     1  28419       1.05       0.87       0.18
+   176     1  28786       1.05       0.87       0.18
+   177     1  29153       1.05       0.87       0.18
+   178     1  29522       1.05       0.87       0.17
+   179     1  29900       1.05       0.87       0.17
+   180     1  30284       1.05       0.87       0.17
+   181     1  30667       1.05       0.88       0.17
+   182     1  31052       1.05       0.88       0.17
+   183     1  31442       1.05       0.88       0.16
+   184     1  31834       1.05       0.89       0.16
+   185     1  32229       1.05       0.89       0.16
+   186     1  32622       1.05       0.90       0.15
+   187     1  33016       1.05       0.90       0.15
+   188     1  33407       1.05       0.91       0.14
+   189     1  33802       1.05       0.92       0.13
+   190     1  34197       1.05       0.93       0.12
+   191     1  34592       1.05       0.94       0.11
+ 
+ Time of computation ->  20150829.030000      in sec:     356400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.03       0.72       0.30
+     1    57     58       1.03       0.64       0.38
+     1    56     57       1.03       0.61       0.40
+     1    55     56       1.03       0.60       0.41
+     1    54     55       1.03       0.62       0.40
+     1    53     54       1.03       0.64       0.38
+     1    52     53       1.03       0.66       0.35
+     1    51     52       1.03       0.68       0.34
+     1    50     51       1.03       0.70       0.32
+     1    49     50       1.03       0.72       0.30
+     1    48     49       1.03       0.73       0.29
+     1    47     48       1.03       0.73       0.29
+     1    46     47       1.03       0.74       0.28
+     1    45     46       1.03       0.74       0.28
+     1    44     45       1.03       0.74       0.28
+     1    43     44       1.03       0.75       0.27
+     1    42     43       1.03       0.75       0.27
+     1    41     42       1.03       0.75       0.27
+     1    40     41       1.03       0.76       0.26
+     1    39     40       1.03       0.76       0.26
+     1    38     39       1.03       0.77       0.25
+     1    37     38       1.03       0.77       0.25
+     1    36     37       1.03       0.80       0.22
+     1    35     36       1.03       0.84       0.19
+     1    34     35       1.03       0.84       0.18
+     1    33     34       1.03       0.83       0.19
+     1    32     33       1.03       0.85       0.18
+     1    31     32       1.03       0.83       0.19
+     1    30     31       1.03       0.82       0.20
+     1    29     30       1.03       0.82       0.21
+     1    28     29       1.03       0.81       0.21
+     1    27     28       1.03       0.80       0.22
+     1    26     27       1.03       0.79       0.23
+     1    25     26       1.03       0.79       0.23
+     1    24     25       1.03       0.78       0.24
+     1    23     24       1.03       0.77       0.25
+     1    22     23       1.03       0.77       0.25
+     1    21     22       1.03       0.78       0.24
+     1    20     21       1.03       0.79       0.23
+     1    19     20       1.03       0.80       0.22
+     1    18     19       1.03       0.81       0.21
+     1    17     18       1.03       0.82       0.20
+     1    16     17       1.03       0.84       0.19
+     1    15     16       1.03       0.85       0.18
+     1    14     15       1.03       0.86       0.17
+     1    13     14       1.03       0.86       0.16
+     1    12     13       1.03       0.87       0.15
+     1    11     12       1.03       0.87       0.15
+     1    10     11       1.03       0.87       0.15
+     1     9     10       1.03       0.87       0.15
+     1     8      9       1.03       0.87       0.15
+     1     7      8       1.03       0.88       0.15
+     1     6      7       1.03       0.88       0.14
+     1     5      6       1.03       0.88       0.14
+     1     4      5       1.03       0.88       0.14
+     1     3      4       1.03       0.89       0.14
+     1     2      3       1.03       0.89       0.14
+     1     1      2       1.03       0.89       0.13
+     2     1     61       1.03       0.89       0.13
+     3     1    120       1.03       0.89       0.13
+     4     1    179       1.03       0.89       0.13
+     5     1    238       1.03       0.89       0.13
+     6     1    296       1.03       0.89       0.13
+     7     1    354       1.03       0.89       0.13
+     8     1    412       1.03       0.89       0.13
+     9     1    470       1.03       0.90       0.13
+    10     1    528       1.03       0.90       0.13
+    11     1    586       1.03       0.90       0.13
+    12     1    644       1.03       0.90       0.13
+    13     1    702       1.03       0.90       0.13
+    14     1    760       1.03       0.90       0.13
+    15     1    818       1.03       0.90       0.13
+    16     1    876       1.03       0.90       0.13
+    17     1    934       1.03       0.90       0.13
+    18     1    992       1.03       0.90       0.13
+    19     1   1050       1.03       0.90       0.13
+    20     1   1108       1.03       0.90       0.12
+    21     1   1166       1.03       0.90       0.12
+    22     1   1224       1.03       0.90       0.12
+    23     1   1281       1.03       0.90       0.12
+    24     1   1338       1.03       0.90       0.12
+    25     1   1395       1.03       0.90       0.12
+    26     1   1452       1.03       0.90       0.12
+    27     1   1510       1.03       0.90       0.12
+    28     1   1568       1.03       0.90       0.12
+    29     1   1627       1.03       0.90       0.12
+    30     1   1686       1.03       0.90       0.12
+    31     1   1745       1.03       0.90       0.12
+    32     1   1803       1.03       0.90       0.12
+    33     1   1861       1.03       0.90       0.12
+    34     1   1922       1.03       0.90       0.12
+    35     1   1988       1.03       0.90       0.12
+    36     1   2054       1.03       0.90       0.12
+    37     1   2121       1.03       0.90       0.12
+    38     1   2188       1.03       0.90       0.12
+    39     1   2256       1.03       0.90       0.12
+    40     1   2324       1.03       0.90       0.12
+    41     1   2392       1.03       0.90       0.12
+    42     1   2461       1.03       0.90       0.12
+    43     1   2530       1.03       0.90       0.12
+    44     1   2598       1.03       0.90       0.12
+    45     1   2666       1.03       0.90       0.12
+    46     1   2735       1.03       0.90       0.12
+    47     1   2810       1.03       0.91       0.12
+    48     1   2888       1.03       0.91       0.12
+    49     1   2973       1.03       0.91       0.12
+    50     1   3074       1.03       0.91       0.12
+    51     1   3183       1.03       0.91       0.12
+    52     1   3302       1.03       0.91       0.12
+    53     1   3423       1.03       0.91       0.12
+    54     1   3546       1.03       0.91       0.12
+    55     1   3668       1.03       0.91       0.12
+    56     1   3794       1.03       0.91       0.12
+    57     1   3924       1.03       0.91       0.12
+    58     1   4054       1.03       0.91       0.12
+    59     1   4186       1.03       0.91       0.12
+    60     1   4320       1.03       0.91       0.12
+    61     1   4454       1.03       0.91       0.12
+    62     1   4585       1.03       0.91       0.12
+    63     1   4714       1.03       0.91       0.12
+    64     1   4844       1.03       0.91       0.12
+    65     1   4973       1.03       0.91       0.12
+    66     1   5104       1.03       0.91       0.12
+    67     1   5233       1.03       0.91       0.12
+    68     1   5367       1.03       0.91       0.12
+    69     1   5501       1.03       0.91       0.12
+    70     1   5636       1.03       0.91       0.12
+    71     1   5771       1.03       0.91       0.12
+    72     1   5906       1.03       0.91       0.12
+    73     1   6039       1.03       0.91       0.12
+    74     1   6170       1.03       0.91       0.12
+    75     1   6298       1.03       0.91       0.12
+    76     1   6426       1.03       0.91       0.12
+    77     1   6551       1.03       0.91       0.11
+    78     1   6676       1.03       0.91       0.11
+    79     1   6800       1.03       0.91       0.11
+    80     1   6926       1.03       0.91       0.11
+    81     1   7052       1.03       0.91       0.11
+    82     1   7179       1.03       0.91       0.11
+    83     1   7308       1.03       0.91       0.11
+    84     1   7436       1.03       0.91       0.11
+    85     1   7563       1.03       0.91       0.11
+    86     1   7690       1.03       0.91       0.11
+    87     1   7819       1.03       0.91       0.11
+    88     1   7954       1.03       0.91       0.11
+    89     1   8095       1.03       0.91       0.11
+    90     1   8235       1.03       0.91       0.11
+    91     1   8373       1.03       0.91       0.11
+    92     1   8509       1.03       0.91       0.11
+    93     1   8647       1.03       0.91       0.11
+    94     1   8791       1.03       0.91       0.11
+    95     1   8943       1.03       0.91       0.11
+    96     1   9096       1.03       0.91       0.11
+    97     1   9254       1.03       0.91       0.11
+    98     1   9410       1.03       0.91       0.11
+    99     1   9573       1.03       0.91       0.11
+   100     1   9737       1.03       0.91       0.11
+   101     1   9904       1.03       0.91       0.11
+   102     1  10077       1.03       0.91       0.11
+   103     1  10255       1.03       0.91       0.11
+   104     1  10430       1.03       0.91       0.11
+   105     1  10607       1.03       0.91       0.11
+   106     1  10785       1.03       0.91       0.11
+   107     1  10967       1.03       0.91       0.11
+   108     1  11152       1.03       0.91       0.11
+   109     1  11338       1.03       0.91       0.11
+   110     1  11531       1.03       0.91       0.11
+   111     1  11726       1.03       0.91       0.11
+   112     1  11917       1.03       0.91       0.12
+   113     1  12115       1.03       0.91       0.12
+   114     1  12318       1.03       0.91       0.12
+   115     1  12532       1.03       0.91       0.12
+   116     1  12749       1.03       0.91       0.12
+   117     1  12970       1.03       0.90       0.12
+   118     1  13193       1.03       0.90       0.12
+   119     1  13417       1.03       0.90       0.12
+   120     1  13641       1.03       0.90       0.12
+   121     1  13868       1.03       0.90       0.12
+   122     1  14097       1.03       0.90       0.13
+   123     1  14328       1.03       0.89       0.13
+   124     1  14560       1.03       0.89       0.13
+   125     1  14796       1.03       0.89       0.13
+   126     1  15033       1.03       0.89       0.13
+   127     1  15269       1.03       0.89       0.13
+   128     1  15507       1.03       0.89       0.13
+   129     1  15745       1.03       0.89       0.13
+   130     1  15984       1.03       0.89       0.14
+   131     1  16221       1.03       0.89       0.14
+   132     1  16459       1.03       0.89       0.14
+   133     1  16698       1.03       0.89       0.14
+   134     1  16938       1.03       0.89       0.14
+   135     1  17179       1.03       0.89       0.14
+   136     1  17421       1.03       0.89       0.14
+   137     1  17662       1.03       0.89       0.14
+   138     1  17903       1.03       0.89       0.14
+   139     1  18141       1.03       0.88       0.14
+   140     1  18378       1.03       0.88       0.14
+   141     1  18615       1.03       0.88       0.14
+   142     1  18850       1.03       0.88       0.14
+   143     1  19081       1.03       0.88       0.14
+   144     1  19312       1.03       0.88       0.14
+   145     1  19548       1.03       0.88       0.14
+   146     1  19785       1.03       0.88       0.14
+   147     1  20023       1.03       0.88       0.15
+   148     1  20259       1.03       0.88       0.15
+   149     1  20497       1.03       0.87       0.15
+   150     1  20738       1.03       0.87       0.15
+   151     1  20981       1.03       0.87       0.15
+   152     1  21230       1.03       0.87       0.15
+   153     1  21482       1.03       0.87       0.15
+   154     1  21737       1.03       0.87       0.15
+   155     1  22004       1.03       0.87       0.16
+   156     1  22276       1.03       0.86       0.16
+   157     1  22549       1.03       0.86       0.16
+   158     1  22821       1.03       0.86       0.16
+   159     1  23100       1.03       0.86       0.16
+   160     1  23380       1.03       0.86       0.16
+   161     1  23677       1.03       0.86       0.16
+   162     1  23981       1.03       0.86       0.17
+   163     1  24300       1.03       0.85       0.17
+   164     1  24623       1.03       0.85       0.17
+   165     1  24955       1.03       0.85       0.17
+   166     1  25297       1.03       0.85       0.17
+   167     1  25640       1.03       0.85       0.17
+   168     1  25982       1.03       0.85       0.17
+   169     1  26322       1.03       0.85       0.18
+   170     1  26665       1.03       0.85       0.18
+   171     1  27006       1.03       0.85       0.18
+   172     1  27349       1.03       0.84       0.18
+   173     1  27702       1.03       0.84       0.18
+   174     1  28058       1.03       0.84       0.18
+   175     1  28419       1.03       0.84       0.18
+   176     1  28786       1.03       0.85       0.18
+   177     1  29153       1.03       0.85       0.18
+   178     1  29522       1.03       0.85       0.17
+   179     1  29900       1.03       0.85       0.17
+   180     1  30284       1.03       0.85       0.17
+   181     1  30667       1.03       0.85       0.17
+   182     1  31052       1.03       0.86       0.17
+   183     1  31442       1.03       0.86       0.16
+   184     1  31834       1.03       0.86       0.16
+   185     1  32229       1.03       0.87       0.16
+   186     1  32622       1.03       0.87       0.15
+   187     1  33016       1.03       0.88       0.15
+   188     1  33407       1.03       0.88       0.14
+   189     1  33802       1.03       0.89       0.13
+   190     1  34197       1.03       0.90       0.12
+   191     1  34592       1.03       0.91       0.11
+ 
+ Time of computation ->  20150829.060000      in sec:     367200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.00       0.70       0.30
+     1    57     58       1.00       0.62       0.38
+     1    56     57       1.00       0.60       0.40
+     1    55     56       1.00       0.59       0.41
+     1    54     55       1.00       0.60       0.40
+     1    53     54       1.00       0.62       0.38
+     1    52     53       1.00       0.64       0.36
+     1    51     52       1.00       0.66       0.34
+     1    50     51       1.00       0.68       0.32
+     1    49     50       1.00       0.70       0.30
+     1    48     49       1.00       0.71       0.29
+     1    47     48       1.00       0.71       0.29
+     1    46     47       1.00       0.72       0.28
+     1    45     46       1.00       0.72       0.28
+     1    44     45       1.00       0.72       0.28
+     1    43     44       1.00       0.72       0.27
+     1    42     43       1.00       0.73       0.27
+     1    41     42       1.00       0.73       0.27
+     1    40     41       1.00       0.74       0.26
+     1    39     40       1.00       0.74       0.26
+     1    38     39       1.00       0.74       0.25
+     1    37     38       1.00       0.75       0.25
+     1    36     37       1.00       0.78       0.22
+     1    35     36       1.00       0.81       0.19
+     1    34     35       1.00       0.82       0.18
+     1    33     34       1.00       0.81       0.19
+     1    32     33       1.00       0.82       0.18
+     1    31     32       1.00       0.80       0.19
+     1    30     31       1.00       0.80       0.20
+     1    29     30       1.00       0.79       0.21
+     1    28     29       1.00       0.79       0.21
+     1    27     28       1.00       0.78       0.22
+     1    26     27       1.00       0.77       0.23
+     1    25     26       1.00       0.76       0.23
+     1    24     25       1.00       0.76       0.24
+     1    23     24       1.00       0.75       0.25
+     1    22     23       1.00       0.75       0.25
+     1    21     22       1.00       0.75       0.24
+     1    20     21       1.00       0.76       0.23
+     1    19     20       1.00       0.78       0.22
+     1    18     19       1.00       0.79       0.21
+     1    17     18       1.00       0.80       0.20
+     1    16     17       1.00       0.81       0.19
+     1    15     16       1.00       0.82       0.18
+     1    14     15       1.00       0.83       0.17
+     1    13     14       1.00       0.84       0.16
+     1    12     13       1.00       0.84       0.16
+     1    11     12       1.00       0.84       0.15
+     1    10     11       1.00       0.85       0.15
+     1     9     10       1.00       0.85       0.15
+     1     8      9       1.00       0.85       0.15
+     1     7      8       1.00       0.85       0.15
+     1     6      7       1.00       0.85       0.15
+     1     5      6       1.00       0.85       0.14
+     1     4      5       1.00       0.86       0.14
+     1     3      4       1.00       0.86       0.14
+     1     2      3       1.00       0.86       0.14
+     1     1      2       1.00       0.87       0.13
+     2     1     61       1.00       0.87       0.13
+     3     1    120       1.00       0.87       0.13
+     4     1    179       1.00       0.87       0.13
+     5     1    238       1.00       0.87       0.13
+     6     1    296       1.00       0.87       0.13
+     7     1    354       1.00       0.87       0.13
+     8     1    412       1.00       0.87       0.13
+     9     1    470       1.00       0.87       0.13
+    10     1    528       1.00       0.87       0.13
+    11     1    586       1.00       0.87       0.13
+    12     1    644       1.00       0.87       0.13
+    13     1    702       1.00       0.87       0.13
+    14     1    760       1.00       0.87       0.13
+    15     1    818       1.00       0.87       0.13
+    16     1    876       1.00       0.87       0.13
+    17     1    934       1.00       0.87       0.13
+    18     1    992       1.00       0.87       0.13
+    19     1   1050       1.00       0.87       0.13
+    20     1   1108       1.00       0.87       0.13
+    21     1   1166       1.00       0.87       0.13
+    22     1   1224       1.00       0.87       0.12
+    23     1   1281       1.00       0.87       0.12
+    24     1   1338       1.00       0.87       0.12
+    25     1   1395       1.00       0.87       0.12
+    26     1   1452       1.00       0.87       0.12
+    27     1   1510       1.00       0.87       0.12
+    28     1   1568       1.00       0.87       0.12
+    29     1   1627       1.00       0.87       0.12
+    30     1   1686       1.00       0.87       0.12
+    31     1   1745       1.00       0.87       0.12
+    32     1   1803       1.00       0.87       0.12
+    33     1   1861       1.00       0.88       0.12
+    34     1   1922       1.00       0.88       0.12
+    35     1   1988       1.00       0.88       0.12
+    36     1   2054       1.00       0.88       0.12
+    37     1   2121       1.00       0.88       0.12
+    38     1   2188       1.00       0.88       0.12
+    39     1   2256       1.00       0.88       0.12
+    40     1   2324       1.00       0.88       0.12
+    41     1   2392       1.00       0.88       0.12
+    42     1   2461       1.00       0.88       0.12
+    43     1   2530       1.00       0.88       0.12
+    44     1   2598       1.00       0.88       0.12
+    45     1   2666       1.00       0.88       0.12
+    46     1   2735       1.00       0.88       0.12
+    47     1   2810       1.00       0.88       0.12
+    48     1   2888       1.00       0.88       0.12
+    49     1   2973       1.00       0.88       0.12
+    50     1   3074       1.00       0.88       0.12
+    51     1   3183       1.00       0.88       0.12
+    52     1   3302       1.00       0.88       0.12
+    53     1   3423       1.00       0.88       0.12
+    54     1   3546       1.00       0.88       0.12
+    55     1   3668       1.00       0.88       0.12
+    56     1   3794       1.00       0.88       0.12
+    57     1   3924       1.00       0.88       0.12
+    58     1   4054       1.00       0.88       0.12
+    59     1   4186       1.00       0.88       0.12
+    60     1   4320       1.00       0.88       0.12
+    61     1   4454       1.00       0.88       0.12
+    62     1   4585       1.00       0.88       0.12
+    63     1   4714       1.00       0.88       0.12
+    64     1   4844       1.00       0.88       0.12
+    65     1   4973       1.00       0.88       0.12
+    66     1   5104       1.00       0.88       0.12
+    67     1   5233       1.00       0.88       0.12
+    68     1   5367       1.00       0.88       0.12
+    69     1   5501       1.00       0.88       0.12
+    70     1   5636       1.00       0.88       0.12
+    71     1   5771       1.00       0.88       0.12
+    72     1   5906       1.00       0.88       0.12
+    73     1   6039       1.00       0.88       0.12
+    74     1   6170       1.00       0.88       0.12
+    75     1   6298       1.00       0.88       0.12
+    76     1   6426       1.00       0.88       0.12
+    77     1   6551       1.00       0.88       0.12
+    78     1   6676       1.00       0.88       0.12
+    79     1   6800       1.00       0.88       0.12
+    80     1   6926       1.00       0.88       0.12
+    81     1   7052       1.00       0.88       0.11
+    82     1   7179       1.00       0.88       0.11
+    83     1   7308       1.00       0.88       0.11
+    84     1   7436       1.00       0.88       0.11
+    85     1   7563       1.00       0.88       0.11
+    86     1   7690       1.00       0.88       0.11
+    87     1   7819       1.00       0.88       0.11
+    88     1   7954       1.00       0.88       0.11
+    89     1   8095       1.00       0.88       0.11
+    90     1   8235       1.00       0.88       0.11
+    91     1   8373       1.00       0.88       0.11
+    92     1   8509       1.00       0.88       0.11
+    93     1   8647       1.00       0.88       0.11
+    94     1   8791       1.00       0.88       0.11
+    95     1   8943       1.00       0.88       0.11
+    96     1   9096       1.00       0.88       0.11
+    97     1   9254       1.00       0.88       0.11
+    98     1   9410       1.00       0.88       0.11
+    99     1   9573       1.00       0.88       0.11
+   100     1   9737       1.00       0.88       0.11
+   101     1   9904       1.00       0.88       0.11
+   102     1  10077       1.00       0.88       0.11
+   103     1  10255       1.00       0.88       0.11
+   104     1  10430       1.00       0.88       0.11
+   105     1  10607       1.00       0.88       0.11
+   106     1  10785       1.00       0.88       0.11
+   107     1  10967       1.00       0.88       0.11
+   108     1  11152       1.00       0.88       0.11
+   109     1  11338       1.00       0.88       0.11
+   110     1  11531       1.00       0.88       0.11
+   111     1  11726       1.00       0.88       0.12
+   112     1  11917       1.00       0.88       0.12
+   113     1  12115       1.00       0.88       0.12
+   114     1  12318       1.00       0.88       0.12
+   115     1  12532       1.00       0.88       0.12
+   116     1  12749       1.00       0.88       0.12
+   117     1  12970       1.00       0.88       0.12
+   118     1  13193       1.00       0.88       0.12
+   119     1  13417       1.00       0.88       0.12
+   120     1  13641       1.00       0.87       0.12
+   121     1  13868       1.00       0.87       0.12
+   122     1  14097       1.00       0.87       0.13
+   123     1  14328       1.00       0.87       0.13
+   124     1  14560       1.00       0.87       0.13
+   125     1  14796       1.00       0.86       0.13
+   126     1  15033       1.00       0.86       0.13
+   127     1  15269       1.00       0.86       0.13
+   128     1  15507       1.00       0.86       0.13
+   129     1  15745       1.00       0.86       0.14
+   130     1  15984       1.00       0.86       0.14
+   131     1  16221       1.00       0.86       0.14
+   132     1  16459       1.00       0.86       0.14
+   133     1  16698       1.00       0.86       0.14
+   134     1  16938       1.00       0.86       0.14
+   135     1  17179       1.00       0.86       0.14
+   136     1  17421       1.00       0.86       0.14
+   137     1  17662       1.00       0.86       0.14
+   138     1  17903       1.00       0.86       0.14
+   139     1  18141       1.00       0.86       0.14
+   140     1  18378       1.00       0.86       0.14
+   141     1  18615       1.00       0.86       0.14
+   142     1  18850       1.00       0.86       0.14
+   143     1  19081       1.00       0.86       0.14
+   144     1  19312       1.00       0.85       0.14
+   145     1  19548       1.00       0.85       0.14
+   146     1  19785       1.00       0.85       0.14
+   147     1  20023       1.00       0.85       0.15
+   148     1  20259       1.00       0.85       0.15
+   149     1  20497       1.00       0.85       0.15
+   150     1  20738       1.00       0.85       0.15
+   151     1  20981       1.00       0.85       0.15
+   152     1  21230       1.00       0.85       0.15
+   153     1  21482       1.00       0.84       0.15
+   154     1  21737       1.00       0.84       0.15
+   155     1  22004       1.00       0.84       0.16
+   156     1  22276       1.00       0.84       0.16
+   157     1  22549       1.00       0.84       0.16
+   158     1  22821       1.00       0.84       0.16
+   159     1  23100       1.00       0.84       0.16
+   160     1  23380       1.00       0.83       0.16
+   161     1  23677       1.00       0.83       0.16
+   162     1  23981       1.00       0.83       0.17
+   163     1  24300       1.00       0.83       0.17
+   164     1  24623       1.00       0.83       0.17
+   165     1  24955       1.00       0.83       0.17
+   166     1  25297       1.00       0.83       0.17
+   167     1  25640       1.00       0.82       0.17
+   168     1  25982       1.00       0.82       0.17
+   169     1  26322       1.00       0.82       0.18
+   170     1  26665       1.00       0.82       0.18
+   171     1  27006       1.00       0.82       0.18
+   172     1  27349       1.00       0.82       0.18
+   173     1  27702       1.00       0.82       0.18
+   174     1  28058       1.00       0.82       0.18
+   175     1  28419       1.00       0.82       0.18
+   176     1  28786       1.00       0.82       0.18
+   177     1  29153       1.00       0.82       0.18
+   178     1  29522       1.00       0.82       0.17
+   179     1  29900       1.00       0.82       0.17
+   180     1  30284       1.00       0.83       0.17
+   181     1  30667       1.00       0.83       0.17
+   182     1  31052       1.00       0.83       0.17
+   183     1  31442       1.00       0.83       0.16
+   184     1  31834       1.00       0.84       0.16
+   185     1  32229       1.00       0.84       0.16
+   186     1  32622       1.00       0.85       0.15
+   187     1  33016       1.00       0.85       0.15
+   188     1  33407       1.00       0.86       0.14
+   189     1  33802       1.00       0.87       0.13
+   190     1  34197       1.00       0.88       0.12
+   191     1  34592       1.00       0.89       0.11
+ 
+ Time of computation ->  20150829.090000      in sec:     378000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    58     59       1.10       0.92       0.16
+     1    57     58       1.10       0.86       0.22
+     1    56     57       1.10       0.81       0.26
+     1    55     56       1.10       0.80       0.27
+     1    54     55       1.10       0.81       0.26
+     1    53     54       1.10       0.84       0.24
+     1    52     53       1.10       0.86       0.22
+     1    51     52       1.10       0.88       0.20
+     1    50     51       1.10       0.89       0.19
+     1    49     50       1.10       0.91       0.17
+     1    48     49       1.10       0.92       0.17
+     1    47     48       1.10       0.92       0.16
+     1    46     47       1.10       0.92       0.16
+     1    45     46       1.10       0.92       0.16
+     1    44     45       1.10       0.92       0.16
+     1    43     44       1.10       0.92       0.16
+     1    42     43       1.10       0.93       0.15
+     1    41     42       1.10       0.94       0.15
+     1    40     41       1.10       0.94       0.14
+     1    39     40       1.10       0.95       0.13
+     1    38     39       1.10       0.96       0.12
+     1    37     38       1.10       0.97       0.11
+     1    29     30       1.10       0.98       0.10
+     1    28     29       1.10       0.98       0.11
+     1    27     28       1.10       0.97       0.12
+     1    26     27       1.10       0.96       0.13
+     1    25     26       1.10       0.96       0.13
+     1    24     25       1.10       0.95       0.13
+     1    23     24       1.10       0.95       0.14
+     1    22     23       1.10       0.95       0.14
+     1    21     22       1.10       0.95       0.13
+     1    20     21       1.10       0.96       0.12
+     1    19     20       1.10       0.97       0.11
+     1    18     19       1.10       0.99       0.10
+ 
+ Time of computation ->  20150829.120000      in sec:     388800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.47       1.75       0.19
+     1    34     35       1.47       1.64       0.11
+     1    33     34       1.47       1.68       0.14
+ 
+ Time of computation ->  20150829.150000      in sec:     399600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.74       2.09       0.20
+     1    34     35       1.74       1.93       0.11
+     1    33     34       1.74       1.99       0.14
+ 
+ Time of computation ->  20150829.180000      in sec:     410400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.82       2.26       0.24
+     1    34     35       1.82       2.05       0.13
+     1    33     34       1.82       2.12       0.17
+ 
+ Time of computation ->  20150829.210000      in sec:     421200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    59     60       1.86       2.32       0.24
+     1    34     35       1.86       2.10       0.13
+     1    33     34       1.86       2.18       0.17
+ 
+ 
+    
+ STOP

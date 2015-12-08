@@ -1,0 +1,1399 @@
+1
+
+                    Execution started at 20151105.001444         
+
+
+
+                    ---------------------------------------
+                                     SWAN
+                    SIMULATION OF WAVES IN NEAR SHORE AREAS
+                             VERSION NUMBER 41.01               
+                    ---------------------------------------
+
+
+    
+ PROJECT  'COB'  ''
+    
+ 'SIMULAÇÃO ONDAS'
+    
+ ''
+    
+ ''
+    
+ 
+    
+ SET DEPMIN 0.1 INRHOG 1 NAUTICAL
+    
+ 
+    
+ MODE NONSTATIONARY TWODIMENSIONAL
+    
+ COORDINATES SPHERICAL CCM
+    
+ 
+    
+ &**********COMPUTATIONAL GRID**********&
+ CGRID REG -43.3140 -23.0900 0 0.276 0.420 337 472 CIRCLE 33 0.05 1.2 28
+ Resolution in sigma-space: df/f =  0.1202
+    
+ 
+    
+ &***BATHYMETRY GRID***&
+ INP BOT REG -43.3140 -23.0900 0 337 472 0.00082 0.00089 EXC 0
+    
+ READinp BOT 1 '/home/rafael/Documentos/lamce/dados/bat_bg_laje/bat_bg_laje.prn' 4 0 FREE  &****LEITURA DO ARQUIVO DE BAT
+ ** Warning          : Point removed from computational grid
+Point with index (   291,   125) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   203,   170) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   209,   174) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   212,   184) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   223,   176) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   230,   173) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   235,   196) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   228,   195) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   210,   204) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   199,   213) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   228,   252) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   242,   287) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   308,   379) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   317,   402) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    45,   353) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    46,   320) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    81,   272) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   102,   275) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    20,    83) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    20,    84) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    40,    94) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    49,   360) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    50,   360) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    54,   364) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    55,   364) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    63,   372) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    70,   375) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    81,   271) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    82,   270) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    82,   271) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    83,   267) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    83,   268) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    83,   269) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    83,   270) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    95,   338) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   157,   347) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   158,   327) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   153,   292) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    84,   265) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    84,   266) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    84,   267) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    85,   265) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    87,   256) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    87,   255) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    88,   254) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    88,   255) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    89,   253) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    89,   254) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    90,   252) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    90,   253) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    91,   249) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    91,   250) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    91,   251) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    91,   252) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    93,   111) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    95,   248) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    96,   248) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    97,   248) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    98,   247) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    98,   248) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (    99,   247) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   106,   254) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   107,   253) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   111,   403) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   113,   243) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   116,   306) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   122,   242) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   136,    69) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   168,   160) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   171,   153) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   151,   164) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   153,   308) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   154,   216) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   160,   343) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   171,   198) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   171,   355) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   201,   245) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   203,   229) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   204,   202) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   213,   241) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   214,   241) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   221,   238) was removed from computational grid because it is an isolated wet point or is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   215,   241) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   217,   240) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   225,   240) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   225,   241) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   225,   246) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   225,   247) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   234,   151) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   234,   269) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   234,   270) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   235,   270) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   235,   272) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   237,   267) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   242,   279) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   255,   459) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   256,   459) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   278,   321) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   290,   449) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   290,   450) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   291,   123) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   291,   124) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   315,   382) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   316,   127) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   316,   428) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   316,   429) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   317,   389) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ ** Warning          : Point removed from computational grid
+Point with index (   338,   133) was removed from computational grid, because it is part of a 1D configuration or 1D connection.
+ 
+    
+ &**********WIND GRID**********&
+ &INP WIND REG -43.3140 -23.0900 0 337 472 0.00082 0.00089 NONSTAT 20141013.000000 1 HR 20141017.230000
+ &READinp WInd 1 SERIes 'XXXXXXXXXX' 1 0 0 0 FREE
+ 
+    
+ 
+    
+ &**********CURRENT GRID**********&
+ &INP CUR REG -43.3140 -23.0900 0 337 472 0.00082 0.00089 NONSTAT 20141013.000000 1 HR 20141017.230000
+ &READinp CUR 1 SERIes 'XXXXXXXXXX' 1 0 0 0 FREE
+ 
+    
+ 
+    
+ &**********BOUNDARY CONDITIONS AND FORCING**********&
+ BOUnd SHAPespec JONswap 3.3 DSPR DEGREES
+    
+ 
+    
+ &***********WAVE**********&
+ BOUndspec SEG IJ 0 0 0 472 VAR FILE 0.42 'TPAR_21_a_25_setembro_1.txt' 1   &****LEITURA DO ARQUIVO DA CONDICAO DE CONTOR
+ 
+    
+ BOUndspec SEG IJ 0 0 337 0 VAR FILE 0.28 'TPAR_21_a_25_setembro_2.txt' 1    &****LEITURA DO ARQUIVO DA CONDICAO DE CONTO
+ 
+    
+ BOUndspec SEG IJ 337 0 337 472 VAR FILE 0.42 'TPAR_21_a_25_setembro_3.txt' 1    &****LEITURA DO ARQUIVO DA CONDICAO DE C
+ 
+    
+ 
+    
+ &**********ABOUT PHYSICS**********&
+ OFF WINDG
+    
+ OFF WCAP
+    
+ OFF QUAD
+    
+ OFF BREAKING
+    
+ 
+    
+ DIFFRAC smpar=0.2 smnum=0
+    
+ 
+    
+ 
+    
+ &**********OUTPUTS**********&
+ QUANTITY HS 'HS' 'Altura Significativa' 0.00 20.00 0
+    
+ QUANTITY DIR 'DIR' 'Direcao Media' 0.00 360.0 0
+    
+ &QUANTITY VEL 'CUR' 'Corrente' 0.00 70.00 0
+ 
+    
+ BLO 'COMPGRID' NOHEADER 'hs_copa.mat' LAY 4 HS 1 OUTPUT 20150920.210000 3 HR   &****NECESSARIO ATUALIZAR AS DATAS DE INI
+ BLO 'COMPGRID' NOHEADER 'dir_copa.mat' LAY 4 DIR 1 OUTPUT 20150920.210000 3 HR  &****NECESSARIO ATUALIZAR AS DATAS DE IN
+ &BLO 'COMPGRID' NOHEADER 'current_copa.mat' LAY 4 VEL 1 OUTPUT 20150920.210000 3 HR  &****NECESSARIO ATUALIZAR AS DATAS
+ 
+    
+ COMP NONSTAT 20150920.210000 3 HR 20150925.210000  &****NECESSARIO ATUALIZAR AS DATAS DE INICIO E FIM DE CADA SIMULAÇÃO*
+ ** Warning          : Limiter is de-activated in case of no quadruplets
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ Time of computation ->  20150921.000000      in sec:      86400.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+
+----------------------------------------------------------------
+                  COMPUTATIONAL PART OF SWAN
+----------------------------------------------------------------
+
+ Gridresolution       : MXC             338 MYC            473
+                      : MCGRD         80781
+                      : MSC              29 MDC             33
+                      : MTC              40
+                      : NSTATC            1 ITERMX           1
+ Propagation flags    : ITFRE             1 IREFR            1
+ Source term flags    : IBOT              0 ISURF            0
+                      : IWCAP             0 IWIND            0
+                      : ITRIAD            0 IQUAD            0
+                      : IVEG              0 ITURBV           0
+                      : IMUD              0
+ Spatial step         : DX       0.8190E-03 DY      0.8898E-03
+ Spectral bin         : df/f     0.1202E+00 DDIR    0.1091E+02
+ Physical constants   : GRAV     0.9810E+01 RHO     0.1025E+04
+ Wind input           : WSPEED   0.0000E+00 DIR     0.0000E+00
+ Tail parameters      : E(f)     0.4000E+01 E(k)    0.2500E+01
+                      : A(f)     0.5000E+01 A(k)    0.3000E+01
+ Accuracy parameters  : DREL     0.1000E-01 NPNTS   0.9950E+02
+                      : DHABS    0.5000E-02 CURVAT  0.5000E-02
+                      : GRWMX    0.1000E+21
+ Drying/flooding      : LEVEL    0.0000E+00 DEPMIN  0.1000E+00
+ The nautical  convention for wind and wave directions is used
+ Scheme for geographic propagation is BSBT  
+ Scheme geogr. space  : PROPSC            1 ICMAX            3
+ Scheme spectral space: CSS      0.5000E+00 CDD     0.5000E+00
+ Current is off
+ Quadruplets is off
+ Triads is off
+ Bottom friction is off
+ Vegetation is off
+ Turbulence is off
+ Fluid mud is off
+ Whitecapping is off
+ Surf breaking is off
+ Set-up is off
+ Diffraction          : SMPAR    0.2000E+00 SMNUM            0
+ Janssen (`89,`90)    : ALPHA    0.1000E-01 KAPPA   0.4100E+00
+ Janssen (`89,`90)    : RHOA     0.1280E+01 RHOW    0.1025E+04
+
+ 1st and 2nd gen. wind: CF10     0.1880E+03 CF20    0.5900E+00
+                      : CF30     0.1200E+00 CF40    0.2500E+03
+                      : CF50     0.2300E-02 CF60   -0.2230E+00
+                      : CF70     0.0000E+00 CF80   -0.5600E+00
+                      : RHOAW    0.1249E-02 EDMLPM  0.3600E-02
+                      : CDRAG    0.1230E-02 UMIN    0.1000E+01
+                      : LIM_PM   0.1300E+00
+
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.67       2.14       0.20
+   338   131  80780       2.67       2.14       0.20
+   338   130  80779       2.67       2.14       0.20
+   338   129  80778       2.67       2.15       0.20
+   338   128  80777       2.67       2.17       0.19
+   338   127  80776       2.67       2.20       0.18
+   338   126  80775       2.67       2.23       0.17
+   338   125  80774       2.67       2.27       0.15
+   338   124  80773       2.67       2.29       0.14
+   338   123  80772       2.67       2.33       0.13
+   338   122  80771       2.67       2.36       0.12
+   338   121  80770       2.67       2.38       0.11
+   338   120  80769       2.67       2.38       0.11
+   338   119  80768       2.67       2.39       0.11
+   338   118  80767       2.67       2.39       0.11
+   338   117  80766       2.67       2.39       0.10
+   338   116  80765       2.67       2.39       0.10
+   338   115  80764       2.67       2.40       0.10
+   338   114  80763       2.67       2.40       0.10
+     1    83     84       2.67       3.07       0.15
+     1     3      4       2.67       2.97       0.11
+
+ Time of computation ->  20150921.030000      in sec:      97200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.54       2.06       0.19
+   338   131  80780       2.54       2.06       0.19
+   338   130  80779       2.54       2.07       0.19
+   338   129  80778       2.54       2.08       0.18
+   338   128  80777       2.54       2.12       0.16
+   338   127  80776       2.54       2.18       0.14
+   338   126  80775       2.54       2.23       0.12
+     1    83     84       2.54       3.02       0.19
+     1    82     83       2.54       2.85       0.12
+
+ Time of computation ->  20150921.060000      in sec:     108000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.40       1.94       0.19
+   338   131  80780       2.40       1.95       0.19
+   338   130  80779       2.40       1.95       0.19
+   338   129  80778       2.40       1.96       0.18
+   338   128  80777       2.40       2.00       0.17
+   338   127  80776       2.40       2.05       0.14
+   338   126  80775       2.40       2.11       0.12
+     1    83     84       2.40       2.88       0.20
+     1    82     83       2.40       2.72       0.13
+     1    60     61       2.40       2.65       0.11
+     1    59     60       2.40       2.66       0.11
+
+ Time of computation ->  20150921.090000      in sec:     118800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.26       1.71       0.25
+   338   131  80780       2.26       1.71       0.24
+   338   130  80779       2.26       1.72       0.24
+   338   129  80778       2.26       1.73       0.23
+   338   128  80777       2.26       1.78       0.21
+   338   127  80776       2.26       1.84       0.19
+   338   126  80775       2.26       1.90       0.16
+   338   125  80774       2.26       1.98       0.13
+     1    83     84       2.26       2.73       0.21
+     1    82     83       2.26       2.59       0.15
+     1    60     61       2.26       2.52       0.11
+     1    59     60       2.26       2.53       0.12
+
+ Time of computation ->  20150921.120000      in sec:     129600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.16       1.63       0.24
+   338   131  80780       2.16       1.63       0.24
+   338   130  80779       2.16       1.64       0.24
+   338   129  80778       2.16       1.65       0.23
+   338   128  80777       2.16       1.70       0.21
+   338   127  80776       2.16       1.75       0.19
+   338   126  80775       2.16       1.81       0.16
+   338   125  80774       2.16       1.89       0.12
+     1    83     84       2.16       2.58       0.20
+     1    82     83       2.16       2.46       0.14
+     1    60     61       2.16       2.39       0.11
+     1    59     60       2.16       2.40       0.11
+
+ Time of computation ->  20150921.150000      in sec:     140400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.07       1.56       0.25
+   338   131  80780       2.07       1.57       0.24
+   338   130  80779       2.07       1.57       0.24
+   338   129  80778       2.07       1.58       0.23
+   338   128  80777       2.07       1.63       0.21
+   338   127  80776       2.07       1.68       0.19
+   338   126  80775       2.07       1.74       0.16
+   338   125  80774       2.07       1.81       0.13
+     1    83     84       2.07       2.46       0.19
+     1    82     83       2.07       2.34       0.13
+     1    60     61       2.07       2.28       0.10
+     1    59     60       2.07       2.28       0.10
+
+ Time of computation ->  20150921.180000      in sec:     151200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.01       1.52       0.25
+   338   131  80780       2.01       1.53       0.24
+   338   130  80779       2.01       1.53       0.24
+   338   129  80778       2.01       1.54       0.23
+   338   128  80777       2.01       1.58       0.21
+   338   127  80776       2.01       1.63       0.19
+   338   126  80775       2.01       1.69       0.16
+   338   125  80774       2.01       1.76       0.13
+     1    83     84       2.01       2.38       0.18
+     1    82     83       2.01       2.27       0.13
+     1    59     60       2.01       2.22       0.10
+
+ Time of computation ->  20150921.210000      in sec:     162000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       1.98       1.55       0.22
+   338   131  80780       1.98       1.55       0.22
+   338   130  80779       1.98       1.56       0.22
+   338   129  80778       1.98       1.57       0.21
+   338   128  80777       1.98       1.60       0.19
+   338   127  80776       1.98       1.65       0.17
+   338   126  80775       1.98       1.70       0.14
+   338   125  80774       1.98       1.76       0.11
+     1    83     84       1.98       2.34       0.18
+     1    82     83       1.98       2.22       0.12
+
+ Time of computation ->  20150922.000000      in sec:     172800.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       1.98       1.54       0.22
+   338   131  80780       1.98       1.55       0.22
+   338   130  80779       1.98       1.55       0.22
+   338   129  80778       1.98       1.56       0.21
+   338   128  80777       1.98       1.60       0.19
+   338   127  80776       1.98       1.65       0.17
+   338   126  80775       1.98       1.69       0.14
+   338   125  80774       1.98       1.76       0.11
+     1    83     84       1.98       2.32       0.17
+     1    82     83       1.98       2.21       0.11
+
+ Time of computation ->  20150922.030000      in sec:     183600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.00       1.58       0.21
+   338   131  80780       2.00       1.58       0.21
+   338   130  80779       2.00       1.59       0.21
+   338   129  80778       2.00       1.60       0.20
+   338   128  80777       2.00       1.63       0.18
+   338   127  80776       2.00       1.68       0.16
+   338   126  80775       2.00       1.73       0.14
+   338   125  80774       2.00       1.79       0.11
+     1    83     84       2.00       2.33       0.17
+     1    82     83       2.00       2.21       0.11
+
+ Time of computation ->  20150922.060000      in sec:     194400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.04       1.62       0.21
+   338   131  80780       2.04       1.62       0.21
+   338   130  80779       2.04       1.62       0.21
+   338   129  80778       2.04       1.63       0.20
+   338   128  80777       2.04       1.67       0.18
+   338   127  80776       2.04       1.71       0.16
+   338   126  80775       2.04       1.76       0.14
+   338   125  80774       2.04       1.82       0.11
+     1    83     84       2.04       2.36       0.16
+
+ Time of computation ->  20150922.090000      in sec:     205200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.13       1.66       0.22
+   338   131  80780       2.13       1.67       0.22
+   338   130  80779       2.13       1.67       0.22
+   338   129  80778       2.13       1.69       0.21
+   338   128  80777       2.13       1.73       0.19
+   338   127  80776       2.13       1.78       0.17
+   338   126  80775       2.13       1.83       0.14
+   338   125  80774       2.13       1.90       0.11
+     1    83     84       2.13       2.59       0.22
+     1    82     83       2.13       2.46       0.15
+     1    81     82       2.13       2.35       0.10
+     1    60     61       2.13       2.39       0.12
+     1    59     60       2.13       2.40       0.12
+     1    58     59       2.13       2.35       0.10
+
+ Time of computation ->  20150922.120000      in sec:     216000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.20       1.64       0.25
+   338   131  80780       2.20       1.65       0.25
+   338   130  80779       2.20       1.65       0.25
+   338   129  80778       2.20       1.67       0.24
+   338   128  80777       2.20       1.72       0.22
+   338   127  80776       2.20       1.77       0.19
+   338   126  80775       2.20       1.84       0.16
+   338   125  80774       2.20       1.92       0.13
+     1    83     84       2.20       2.69       0.22
+     1    82     83       2.20       2.55       0.16
+     1    81     82       2.20       2.44       0.11
+     1    61     62       2.20       2.42       0.10
+     1    60     61       2.20       2.47       0.12
+     1    59     60       2.20       2.48       0.13
+     1    58     59       2.20       2.43       0.11
+
+ Time of computation ->  20150922.150000      in sec:     226800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.17       1.64       0.24
+   338   131  80780       2.17       1.65       0.24
+   338   130  80779       2.17       1.65       0.24
+   338   129  80778       2.17       1.66       0.23
+   338   128  80777       2.17       1.71       0.21
+   338   127  80776       2.17       1.77       0.19
+   338   126  80775       2.17       1.83       0.16
+   338   125  80774       2.17       1.91       0.12
+     1    83     84       2.17       2.66       0.22
+     1    82     83       2.17       2.53       0.16
+     1    81     82       2.17       2.42       0.11
+     1    61     62       2.17       2.40       0.10
+     1    60     61       2.17       2.44       0.13
+     1    59     60       2.17       2.45       0.13
+     1    58     59       2.17       2.40       0.11
+
+ Time of computation ->  20150922.180000      in sec:     237600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.08       1.57       0.24
+   338   131  80780       2.08       1.58       0.24
+   338   130  80779       2.08       1.58       0.24
+   338   129  80778       2.08       1.59       0.23
+   338   128  80777       2.08       1.64       0.21
+   338   127  80776       2.08       1.69       0.19
+   338   126  80775       2.08       1.75       0.16
+   338   125  80774       2.08       1.82       0.12
+     1    83     84       2.08       2.50       0.20
+     1    82     83       2.08       2.38       0.14
+     1    60     61       2.08       2.31       0.11
+     1    59     60       2.08       2.32       0.11
+
+ Time of computation ->  20150922.210000      in sec:     248400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.02       1.55       0.23
+   338   131  80780       2.02       1.56       0.23
+   338   130  80779       2.02       1.56       0.23
+   338   129  80778       2.02       1.57       0.22
+   338   128  80777       2.02       1.61       0.20
+   338   127  80776       2.02       1.66       0.18
+   338   126  80775       2.02       1.72       0.15
+   338   125  80774       2.02       1.78       0.12
+     1    83     84       2.02       2.39       0.18
+     1    82     83       2.02       2.28       0.12
+
+ Time of computation ->  20150923.000000      in sec:     259200.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.03       1.58       0.22
+   338   131  80780       2.03       1.59       0.22
+   338   130  80779       2.03       1.59       0.22
+   338   129  80778       2.03       1.60       0.21
+   338   128  80777       2.03       1.64       0.19
+   338   127  80776       2.03       1.69       0.17
+   338   126  80775       2.03       1.74       0.14
+   338   125  80774       2.03       1.80       0.11
+     1    83     84       2.03       2.38       0.17
+     1    82     83       2.03       2.26       0.11
+
+ Time of computation ->  20150923.030000      in sec:     270000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.06       1.66       0.19
+   338   131  80780       2.06       1.67       0.19
+   338   130  80779       2.06       1.67       0.19
+   338   129  80778       2.06       1.68       0.18
+   338   128  80777       2.06       1.71       0.17
+   338   127  80776       2.06       1.76       0.15
+   338   126  80775       2.06       1.80       0.12
+     1    83     84       2.06       2.39       0.16
+
+ Time of computation ->  20150923.060000      in sec:     280800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.03       1.65       0.19
+   338   131  80780       2.03       1.65       0.19
+   338   130  80779       2.03       1.65       0.19
+   338   129  80778       2.03       1.66       0.18
+   338   128  80777       2.03       1.69       0.17
+   338   127  80776       2.03       1.74       0.15
+   338   126  80775       2.03       1.78       0.12
+     1    83     84       2.03       2.36       0.16
+
+ Time of computation ->  20150923.090000      in sec:     291600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.00       1.62       0.19
+   338   131  80780       2.00       1.62       0.19
+   338   130  80779       2.00       1.63       0.19
+   338   129  80778       2.00       1.64       0.18
+   338   128  80777       2.00       1.67       0.17
+   338   127  80776       2.00       1.71       0.15
+   338   126  80775       2.00       1.76       0.12
+     1    83     84       2.00       2.33       0.16
+
+ Time of computation ->  20150923.120000      in sec:     302400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       1.96       1.53       0.22
+   338   131  80780       1.96       1.53       0.22
+   338   130  80779       1.96       1.54       0.22
+   338   129  80778       1.96       1.55       0.21
+   338   128  80777       1.96       1.59       0.19
+   338   127  80776       1.96       1.63       0.17
+   338   126  80775       1.96       1.68       0.15
+   338   125  80774       1.96       1.74       0.11
+     1    83     84       1.96       2.30       0.17
+     1    82     83       1.96       2.18       0.11
+
+ Time of computation ->  20150923.150000      in sec:     313200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       1.92       1.50       0.22
+   338   131  80780       1.92       1.50       0.22
+   338   130  80779       1.92       1.51       0.22
+   338   129  80778       1.92       1.52       0.21
+   338   128  80777       1.92       1.55       0.19
+   338   127  80776       1.92       1.60       0.17
+   338   126  80775       1.92       1.64       0.15
+   338   125  80774       1.92       1.70       0.11
+     1    83     84       1.92       2.23       0.16
+     1    82     83       1.92       2.12       0.10
+
+ Time of computation ->  20150923.180000      in sec:     324000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       1.89       1.47       0.22
+   338   131  80780       1.89       1.48       0.22
+   338   130  80779       1.89       1.48       0.22
+   338   129  80778       1.89       1.49       0.21
+   338   128  80777       1.89       1.53       0.19
+   338   127  80776       1.89       1.57       0.17
+   338   126  80775       1.89       1.61       0.15
+   338   125  80774       1.89       1.67       0.12
+     1    83     84       1.89       2.17       0.15
+
+ Time of computation ->  20150923.210000      in sec:     334800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       1.89       1.58       0.16
+   338   131  80780       1.89       1.58       0.16
+   338   130  80779       1.89       1.58       0.16
+   338   129  80778       1.89       1.59       0.16
+   338   128  80777       1.89       1.62       0.14
+   338   127  80776       1.89       1.65       0.13
+   338   126  80775       1.89       1.69       0.11
+     1    83     84       1.89       2.11       0.12
+
+ Time of computation ->  20150924.000000      in sec:     345600.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    81     82       1.92       1.64       0.14
+     1    80     81       1.92       1.57       0.18
+     1    79     80       1.92       1.52       0.21
+     1    78     79       1.92       1.50       0.22
+     1    77     78       1.92       1.51       0.22
+     1    76     77       1.92       1.52       0.21
+     1    75     76       1.92       1.53       0.20
+     1    74     75       1.92       1.54       0.20
+     1    73     74       1.92       1.54       0.19
+     1    72     73       1.92       1.59       0.17
+     1    71     72       1.92       1.53       0.20
+     1    70     71       1.92       1.52       0.21
+     1    69     70       1.92       1.53       0.20
+     1    68     69       1.92       1.53       0.20
+     1    67     68       1.92       1.53       0.20
+     1    66     67       1.92       1.54       0.20
+     1    65     66       1.92       1.56       0.19
+     1    64     65       1.92       1.59       0.17
+     1    63     64       1.92       1.62       0.16
+     1    62     63       1.92       1.65       0.14
+     1    61     62       1.92       1.70       0.12
+     1    58     59       1.92       1.72       0.10
+     1    57     58       1.92       1.70       0.11
+     1    56     57       1.92       1.70       0.11
+     1    55     56       1.92       1.71       0.11
+     1    54     55       1.92       1.72       0.10
+     1    53     54       1.92       1.72       0.10
+     1    52     53       1.92       1.70       0.11
+     1    51     52       1.92       1.66       0.13
+     1    50     51       1.92       1.66       0.13
+     1    49     50       1.92       1.64       0.15
+     1    48     49       1.92       1.61       0.16
+     1    47     48       1.92       1.60       0.17
+     1    46     47       1.92       1.60       0.17
+     1    45     46       1.92       1.60       0.16
+     1    44     45       1.92       1.61       0.16
+     1    43     44       1.92       1.62       0.16
+     1    42     43       1.92       1.63       0.15
+     1    41     42       1.92       1.63       0.15
+     1    40     41       1.92       1.64       0.15
+     1    39     40       1.92       1.64       0.14
+     1    38     39       1.92       1.65       0.14
+     1    37     38       1.92       1.65       0.14
+     1    36     37       1.92       1.66       0.14
+     1    35     36       1.92       1.66       0.14
+     1    34     35       1.92       1.66       0.13
+     1    33     34       1.92       1.68       0.13
+     1    32     33       1.92       1.69       0.12
+     1    31     32       1.92       1.69       0.12
+     1    30     31       1.92       1.69       0.12
+     1    29     30       1.92       1.69       0.12
+     1    28     29       1.92       1.70       0.11
+     1    27     28       1.92       1.70       0.11
+     1    26     27       1.92       1.71       0.11
+     1    25     26       1.92       1.72       0.11
+     1    24     25       1.92       1.72       0.10
+
+ Time of computation ->  20150924.030000      in sec:     356400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    82     83       1.90       1.59       0.16
+     1    81     82       1.90       1.49       0.21
+     1    80     81       1.90       1.43       0.25
+     1    79     80       1.90       1.39       0.27
+     1    78     79       1.90       1.37       0.28
+     1    77     78       1.90       1.37       0.28
+     1    76     77       1.90       1.39       0.27
+     1    75     76       1.90       1.40       0.26
+     1    74     75       1.90       1.41       0.26
+     1    73     74       1.90       1.42       0.25
+     1    72     73       1.90       1.46       0.23
+     1    71     72       1.90       1.41       0.26
+     1    70     71       1.90       1.40       0.26
+     1    69     70       1.90       1.40       0.26
+     1    68     69       1.90       1.41       0.26
+     1    67     68       1.90       1.41       0.26
+     1    66     67       1.90       1.41       0.26
+     1    65     66       1.90       1.43       0.25
+     1    64     65       1.90       1.45       0.24
+     1    63     64       1.90       1.48       0.22
+     1    62     63       1.90       1.51       0.20
+     1    61     62       1.90       1.55       0.18
+     1    60     61       1.90       1.59       0.16
+     1    59     60       1.90       1.60       0.16
+     1    58     59       1.90       1.59       0.16
+     1    57     58       1.90       1.58       0.17
+     1    56     57       1.90       1.58       0.17
+     1    55     56       1.90       1.59       0.16
+     1    54     55       1.90       1.60       0.15
+     1    53     54       1.90       1.61       0.15
+     1    52     53       1.90       1.60       0.16
+     1    51     52       1.90       1.57       0.17
+     1    50     51       1.90       1.57       0.17
+     1    49     50       1.90       1.55       0.18
+     1    48     49       1.90       1.53       0.19
+     1    47     48       1.90       1.52       0.20
+     1    46     47       1.90       1.52       0.20
+     1    45     46       1.90       1.52       0.20
+     1    44     45       1.90       1.52       0.20
+     1    43     44       1.90       1.53       0.19
+     1    42     43       1.90       1.54       0.19
+     1    41     42       1.90       1.54       0.19
+     1    40     41       1.90       1.55       0.18
+     1    39     40       1.90       1.55       0.18
+     1    38     39       1.90       1.55       0.18
+     1    37     38       1.90       1.55       0.18
+     1    36     37       1.90       1.56       0.18
+     1    35     36       1.90       1.56       0.18
+     1    34     35       1.90       1.57       0.17
+     1    33     34       1.90       1.58       0.17
+     1    32     33       1.90       1.59       0.16
+     1    31     32       1.90       1.60       0.16
+     1    30     31       1.90       1.60       0.15
+     1    29     30       1.90       1.61       0.15
+     1    28     29       1.90       1.61       0.15
+     1    27     28       1.90       1.62       0.15
+     1    26     27       1.90       1.63       0.14
+     1    25     26       1.90       1.64       0.14
+     1    24     25       1.90       1.64       0.13
+     1    23     24       1.90       1.65       0.13
+     1    22     23       1.90       1.66       0.13
+     1    21     22       1.90       1.66       0.13
+     1    20     21       1.90       1.66       0.12
+     1    19     20       1.90       1.67       0.12
+     1    18     19       1.90       1.67       0.12
+     1    17     18       1.90       1.67       0.12
+     1    16     17       1.90       1.68       0.12
+     1    15     16       1.90       1.68       0.12
+     1    14     15       1.90       1.68       0.12
+     1    13     14       1.90       1.68       0.11
+     1    12     13       1.90       1.68       0.11
+     1    11     12       1.90       1.68       0.11
+     1    10     11       1.90       1.69       0.11
+     1     9     10       1.90       1.69       0.11
+     1     8      9       1.90       1.70       0.10
+
+ Time of computation ->  20150924.060000      in sec:     367200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    82     83       1.83       1.53       0.17
+     1    81     82       1.83       1.43       0.22
+     1    80     81       1.83       1.37       0.25
+     1    79     80       1.83       1.33       0.27
+     1    78     79       1.83       1.32       0.28
+     1    77     78       1.83       1.32       0.28
+     1    76     77       1.83       1.34       0.27
+     1    75     76       1.83       1.35       0.26
+     1    74     75       1.83       1.36       0.26
+     1    73     74       1.83       1.37       0.25
+     1    72     73       1.83       1.41       0.23
+     1    71     72       1.83       1.36       0.26
+     1    70     71       1.83       1.35       0.26
+     1    69     70       1.83       1.36       0.26
+     1    68     69       1.83       1.36       0.26
+     1    67     68       1.83       1.36       0.26
+     1    66     67       1.83       1.37       0.25
+     1    65     66       1.83       1.38       0.25
+     1    64     65       1.83       1.41       0.23
+     1    63     64       1.83       1.43       0.22
+     1    62     63       1.83       1.46       0.20
+     1    61     62       1.83       1.50       0.18
+     1    60     61       1.83       1.53       0.16
+     1    59     60       1.83       1.55       0.16
+     1    58     59       1.83       1.54       0.16
+     1    57     58       1.83       1.53       0.16
+     1    56     57       1.83       1.52       0.17
+     1    55     56       1.83       1.54       0.16
+     1    54     55       1.83       1.55       0.15
+     1    53     54       1.83       1.56       0.15
+     1    52     53       1.83       1.55       0.15
+     1    51     52       1.83       1.52       0.17
+     1    50     51       1.83       1.53       0.17
+     1    49     50       1.83       1.51       0.18
+     1    48     49       1.83       1.50       0.18
+     1    47     48       1.83       1.48       0.19
+     1    46     47       1.83       1.48       0.19
+     1    45     46       1.83       1.48       0.19
+     1    44     45       1.83       1.49       0.19
+     1    43     44       1.83       1.49       0.19
+     1    42     43       1.83       1.50       0.18
+     1    41     42       1.83       1.50       0.18
+     1    40     41       1.83       1.50       0.18
+     1    39     40       1.83       1.50       0.18
+     1    38     39       1.83       1.51       0.18
+     1    37     38       1.83       1.51       0.18
+     1    36     37       1.83       1.51       0.18
+     1    35     36       1.83       1.51       0.17
+     1    34     35       1.83       1.52       0.17
+     1    33     34       1.83       1.54       0.16
+     1    32     33       1.83       1.55       0.16
+     1    31     32       1.83       1.56       0.15
+     1    30     31       1.83       1.56       0.15
+     1    29     30       1.83       1.57       0.15
+     1    28     29       1.83       1.57       0.14
+     1    27     28       1.83       1.58       0.14
+     1    26     27       1.83       1.59       0.13
+     1    25     26       1.83       1.59       0.13
+     1    24     25       1.83       1.60       0.13
+     1    23     24       1.83       1.61       0.12
+     1    22     23       1.83       1.61       0.12
+     1    21     22       1.83       1.62       0.12
+     1    20     21       1.83       1.62       0.12
+     1    19     20       1.83       1.62       0.12
+     1    18     19       1.83       1.63       0.11
+     1    17     18       1.83       1.63       0.11
+     1    16     17       1.83       1.63       0.11
+     1    15     16       1.83       1.63       0.11
+     1    14     15       1.83       1.63       0.11
+     1    13     14       1.83       1.63       0.11
+     1    12     13       1.83       1.63       0.11
+     1    11     12       1.83       1.64       0.11
+     1    10     11       1.83       1.64       0.10
+     1     9     10       1.83       1.65       0.10
+
+ Time of computation ->  20150924.090000      in sec:     378000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    82     83       1.80       1.55       0.14
+     1    81     82       1.80       1.46       0.18
+     1    80     81       1.80       1.41       0.22
+     1    79     80       1.80       1.37       0.24
+     1    78     79       1.80       1.36       0.24
+     1    77     78       1.80       1.37       0.24
+     1    76     77       1.80       1.38       0.23
+     1    75     76       1.80       1.40       0.22
+     1    74     75       1.80       1.41       0.22
+     1    73     74       1.80       1.41       0.21
+     1    72     73       1.80       1.46       0.19
+     1    71     72       1.80       1.41       0.22
+     1    70     71       1.80       1.40       0.22
+     1    69     70       1.80       1.41       0.22
+     1    68     69       1.80       1.41       0.21
+     1    67     68       1.80       1.41       0.21
+     1    66     67       1.80       1.42       0.21
+     1    65     66       1.80       1.43       0.20
+     1    64     65       1.80       1.45       0.19
+     1    63     64       1.80       1.48       0.18
+     1    62     63       1.80       1.51       0.16
+     1    61     62       1.80       1.54       0.14
+     1    60     61       1.80       1.58       0.12
+     1    59     60       1.80       1.59       0.12
+     1    58     59       1.80       1.58       0.12
+     1    57     58       1.80       1.57       0.13
+     1    56     57       1.80       1.56       0.13
+     1    55     56       1.80       1.57       0.12
+     1    54     55       1.80       1.58       0.12
+     1    53     54       1.80       1.59       0.11
+     1    52     53       1.80       1.58       0.12
+     1    51     52       1.80       1.55       0.14
+     1    50     51       1.80       1.56       0.13
+     1    49     50       1.80       1.54       0.14
+     1    48     49       1.80       1.53       0.15
+     1    47     48       1.80       1.51       0.16
+     1    46     47       1.80       1.51       0.16
+     1    45     46       1.80       1.51       0.16
+     1    44     45       1.80       1.52       0.15
+     1    43     44       1.80       1.53       0.15
+     1    42     43       1.80       1.53       0.15
+     1    41     42       1.80       1.54       0.14
+     1    40     41       1.80       1.54       0.14
+     1    39     40       1.80       1.54       0.14
+     1    38     39       1.80       1.54       0.14
+     1    37     38       1.80       1.54       0.14
+     1    36     37       1.80       1.55       0.14
+     1    35     36       1.80       1.55       0.14
+     1    34     35       1.80       1.55       0.13
+     1    33     34       1.80       1.57       0.13
+     1    32     33       1.80       1.58       0.12
+     1    31     32       1.80       1.59       0.11
+     1    30     31       1.80       1.59       0.11
+     1    29     30       1.80       1.60       0.11
+     1    28     29       1.80       1.60       0.11
+     1    27     28       1.80       1.61       0.10
+     1    26     27       1.80       1.61       0.10
+
+ Time of computation ->  20150924.120000      in sec:     388800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+     1    83     84       1.91       2.29       0.20
+
+ Time of computation ->  20150924.150000      in sec:     399600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.19       1.79       0.18
+   338   131  80780       2.19       1.80       0.18
+   338   130  80779       2.19       1.80       0.18
+   338   129  80778       2.19       1.81       0.17
+   338   128  80777       2.19       1.84       0.16
+   338   127  80776       2.19       1.89       0.14
+   338   126  80775       2.19       1.93       0.12
+     1    83     84       2.19       2.70       0.23
+     1    82     83       2.19       2.54       0.16
+     1    81     82       2.19       2.42       0.10
+     1    60     61       2.19       2.45       0.12
+     1    59     60       2.19       2.47       0.13
+     1    58     59       2.19       2.42       0.11
+
+ Time of computation ->  20150924.180000      in sec:     410400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.42       1.95       0.19
+   338   131  80780       2.42       1.96       0.19
+   338   130  80779       2.42       1.96       0.19
+   338   129  80778       2.42       1.97       0.18
+   338   128  80777       2.42       2.02       0.17
+   338   127  80776       2.42       2.07       0.15
+   338   126  80775       2.42       2.12       0.12
+     1    83     84       2.42       2.96       0.22
+     1    82     83       2.42       2.79       0.16
+     1    81     82       2.42       2.66       0.10
+     1    60     61       2.42       2.70       0.12
+     1    59     60       2.42       2.72       0.12
+     1    58     59       2.42       2.66       0.10
+
+ Time of computation ->  20150924.210000      in sec:     421200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.51       2.06       0.18
+   338   131  80780       2.51       2.06       0.18
+   338   130  80779       2.51       2.07       0.18
+   338   129  80778       2.51       2.08       0.17
+   338   128  80777       2.51       2.12       0.16
+   338   127  80776       2.51       2.17       0.14
+   338   126  80775       2.51       2.22       0.11
+     1    83     84       2.51       3.06       0.22
+     1    82     83       2.51       2.88       0.15
+     1    60     61       2.51       2.80       0.12
+     1    59     60       2.51       2.81       0.12
+
+ Time of computation ->  20150925.000000      in sec:     432000.
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ ** Warning          :  sign. wave height at boundary is not positive
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.53       2.08       0.18
+   338   131  80780       2.53       2.08       0.18
+   338   130  80779       2.53       2.08       0.18
+   338   129  80778       2.53       2.10       0.17
+   338   128  80777       2.53       2.14       0.16
+   338   127  80776       2.53       2.19       0.14
+   338   126  80775       2.53       2.24       0.11
+     1    83     84       2.53       3.08       0.22
+     1    82     83       2.53       2.90       0.15
+     1    60     61       2.53       2.82       0.12
+     1    59     60       2.53       2.84       0.12
+
+ Time of computation ->  20150925.030000      in sec:     442800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.49       2.05       0.18
+   338   131  80780       2.49       2.05       0.18
+   338   130  80779       2.49       2.05       0.18
+   338   129  80778       2.49       2.07       0.17
+   338   128  80777       2.49       2.11       0.16
+   338   127  80776       2.49       2.16       0.14
+   338   126  80775       2.49       2.21       0.11
+     1    83     84       2.49       3.02       0.21
+     1    82     83       2.49       2.85       0.14
+     1    60     61       2.49       2.78       0.11
+     1    59     60       2.49       2.79       0.12
+
+ Time of computation ->  20150925.060000      in sec:     453600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.40       1.97       0.18
+   338   131  80780       2.40       1.97       0.18
+   338   130  80779       2.40       1.98       0.18
+   338   129  80778       2.40       1.99       0.17
+   338   128  80777       2.40       2.03       0.16
+   338   127  80776       2.40       2.07       0.14
+   338   126  80775       2.40       2.13       0.11
+     1    83     84       2.40       2.87       0.20
+     1    82     83       2.40       2.71       0.13
+     1    60     61       2.40       2.64       0.10
+     1    59     60       2.40       2.65       0.11
+
+ Time of computation ->  20150925.090000      in sec:     464400.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.28       1.90       0.16
+   338   131  80780       2.28       1.91       0.16
+   338   130  80779       2.28       1.91       0.16
+   338   129  80778       2.28       1.92       0.16
+   338   128  80777       2.28       1.95       0.14
+   338   127  80776       2.28       2.00       0.12
+   338   126  80775       2.28       2.04       0.10
+     1    83     84       2.28       2.70       0.19
+     1    82     83       2.28       2.54       0.12
+
+ Time of computation ->  20150925.120000      in sec:     475200.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.14       1.79       0.16
+   338   131  80780       2.14       1.79       0.16
+   338   130  80779       2.14       1.79       0.16
+   338   129  80778       2.14       1.80       0.16
+   338   128  80777       2.14       1.84       0.14
+   338   127  80776       2.14       1.87       0.12
+   338   126  80775       2.14       1.92       0.10
+     1    83     84       2.14       2.53       0.18
+     1    82     83       2.14       2.38       0.11
+
+ Time of computation ->  20150925.150000      in sec:     486000.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       2.02       1.69       0.16
+   338   131  80780       2.02       1.69       0.16
+   338   130  80779       2.02       1.69       0.16
+   338   129  80778       2.02       1.70       0.16
+   338   128  80777       2.02       1.73       0.14
+   338   127  80776       2.02       1.77       0.12
+   338   126  80775       2.02       1.81       0.10
+     1    83     84       2.02       2.37       0.18
+     1    82     83       2.02       2.24       0.11
+
+ Time of computation ->  20150925.180000      in sec:     496800.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       1.90       1.59       0.16
+   338   131  80780       1.90       1.60       0.16
+   338   130  80779       1.90       1.60       0.16
+   338   129  80778       1.90       1.61       0.16
+   338   128  80777       1.90       1.63       0.14
+   338   127  80776       1.90       1.67       0.12
+   338   126  80775       1.90       1.71       0.10
+     1    83     84       1.90       2.23       0.17
+     1    82     83       1.90       2.10       0.10
+
+ Time of computation ->  20150925.210000      in sec:     507600.
+ not possible to compute, first iteration
+
+  ** WARNING : Differences in wave height at the boundary
+ Relative difference between input and computation >=   0.10
+                         Hs[m]      Hs[m]      Hs[-]
+     ix    iy  index   (input) (computed) (relative)
+  --------------------------------------------------
+   338   132  80781       1.79       1.50       0.16
+   338   131  80780       1.79       1.50       0.16
+   338   130  80779       1.79       1.51       0.16
+   338   129  80778       1.79       1.51       0.16
+   338   128  80777       1.79       1.54       0.14
+   338   127  80776       1.79       1.57       0.13
+   338   126  80775       1.79       1.61       0.11
+     1    83     84       1.79       2.06       0.15
+
+ 
+    
+ STOP

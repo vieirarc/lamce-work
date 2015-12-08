@@ -1,0 +1,45 @@
+1
+
+                    Execution started at 20150831.193808         
+
+
+
+                    ---------------------------------------
+                                     SWAN
+                    SIMULATION OF WAVES IN NEAR SHORE AREAS
+                             VERSION NUMBER 41.01               
+                    ---------------------------------------
+
+
+    
+ PROJECT  'COB'  ''
+    
+ 'SIMULAÇÃO ONDAS'
+    
+ ''
+    
+ ''
+    
+ 
+    
+ SET DEPMIN 0.7 INRHOG 1 NAUTICAL
+    
+ 
+    
+ MODE NONSTATIONARY TWODIMENSIONAL
+    
+ COORDINATES SPHERICAL CCM
+    
+ 
+    
+ &**********COMPUTATIONAL GRID**********&
+ CGRID REG -43.3153 -23.0675 0 0.286 0.414 349 463 CIRCLE 30 0.04 1.2 28
+ Resolution in sigma-space: df/f =  0.1292
+    
+ 
+    
+ &***BATHYMETRY GRID***&
+ INP BOT REG -43.3153 -23.0675 0 349 463 0.00082 0.00089 EXC 0
+    
+ READinp BOT 1 '/home/rafael/Documentos/swan/lon_lat_bat_costa_100_bg/bat_100_bg.prn' 4 0 FREE  &****LEITURA DO ARQUIVO D
+ ** Terminating error: File cannot be opened/does not exist: /home/rafael/Documentos/swan/lon_lat_bat_costa_100_bg/bat_100_bg.prn            
